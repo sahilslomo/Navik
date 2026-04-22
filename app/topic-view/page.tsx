@@ -71,7 +71,7 @@ function TopicViewContent() {
     }
   };
 
-  // Load questions
+  // Load q
   useEffect(() => {
     if (!courseClass || !subject || !topic) return;
     const loadData = async () => {
