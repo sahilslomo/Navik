@@ -1,0 +1,2554 @@
+{
+  "meo2": {
+    "safety": {
+      "topics": {
+        "MLC": [
+          {
+            "id": 1,
+            "question": "What is MLC?",
+            "answer": "Maritime Labour Convention."
+          },
+          {
+            "id": 2,
+            "question": "Purpose of MLC?",
+            "answer": "To ensure seafarer welfare."
+          },
+          {
+            "id": 1775831134690,
+            "question": "What are the latest amendments in MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ANIL DESWAL SIR)"
+            ]
+          },
+          {
+            "id": 1775831197826,
+            "question": "MLC complaint handling process?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (VISHWANATHAN SIR)"
+            ]
+          },
+          {
+            "id": 1775831521979,
+            "question": "What is MLC Detainable Deficiency?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775831607149,
+            "question": "What is MLC? Certificates under MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (UMASANKAR SIR)"
+            ]
+          },
+          {
+            "id": 1775831660322,
+            "question": "Explain MLC Complete?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775831736324,
+            "question": "Describe MLC and its components and explain function of each?",
+            "answer": ".......",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1775831835843,
+            "question": "What is MLC? What is Ship Owner's Liability?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (MUDIT SIR)"
+            ]
+          },
+          {
+            "id": 1775831884379,
+            "question": "What is MLC?",
+            "answer": ". ",
+            "labels": [
+              "NOIDA MUMBAI (RK GUPTA SIR)"
+            ]
+          },
+          {
+            "id": 1775831924596,
+            "question": "MLC Rest Hours?",
+            "answer": ".",
+            "labels": [
+              "NOIDA/MUMBAI (CHAKKI SIR)"
+            ]
+          },
+          {
+            "id": 1775831997272,
+            "question": "MLC Rest & Work Hours?",
+            "answer": "..",
+            "labels": [
+              "NOIDA / MUMBAI (VISHWANATHAN SIR)"
+            ]
+          },
+          {
+            "id": 1775832107970,
+            "question": "MLC Deficiency? Certificate of Financial Security?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775832203680,
+            "question": "Detainable Deficiency as per MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775832244620,
+            "question": "DMLC & MLC?",
+            "answer": ". ",
+            "labels": [
+              "NOIDA / MUMBAI (BRIJ SIR)"
+            ]
+          },
+          {
+            "id": 1775832289922,
+            "question": "Chapters under MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (PAKRASI SIR)"
+            ]
+          },
+          {
+            "id": 1775832366996,
+            "question": "Deficiencies under MLC? MLC TITLES? MLC Audit as 2/E?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775832425658,
+            "question": "MLC Rest & Work Hours?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (BIJAY SIR)"
+            ]
+          },
+          {
+            "id": 1775832492836,
+            "question": "What is MLC 2006?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1775832538783,
+            "question": "MLC and what does it take care of?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1775832584348,
+            "question": "MLC TITLES?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (CHANDRA SHEKHAR SIR)"
+            ]
+          },
+          {
+            "id": 1775832632069,
+            "question": "What is MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1775832705924,
+            "question": "MLC and Article 3 of MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (V CHANDRAN SIR)"
+            ]
+          },
+          {
+            "id": 1775832756391,
+            "question": "MLC Financial Security?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775832799925,
+            "question": "MLC Latest Amendments?",
+            "answer": "..",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1775832843806,
+            "question": "MLC 2006 Detainable Deficiency & Financial Security?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775832966868,
+            "question": "Certificate of Affirmation and Financial Security as per MLC and Certificate?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775833203225,
+            "question": "What is MLC? Explain DMLC1 & DMLC2?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (RAJIV WAD SIR)"
+            ]
+          },
+          {
+            "id": 1775833254773,
+            "question": "MLC Rest and Work hours?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (VISHWANATHAN SIR)"
+            ]
+          },
+          {
+            "id": 1775833254789,
+            "question": "MLC Rest and Work hours?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (VISHWANATHAN SIR)"
+            ]
+          },
+          {
+            "id": 1775833333421,
+            "question": "MLC Latest amendments?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1775833418215,
+            "question": "MLC Non Conformities?",
+            "answer": "...",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775833479349,
+            "question": "Why MLC is not under IMO?",
+            "answer": "..",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1775833541780,
+            "question": "Objective of MLC? 5 Titles of MLC?",
+            "answer": "..",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1775833604605,
+            "question": "Certificates under MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (UMASANKAR SIR)"
+            ]
+          },
+          {
+            "id": 1775833674190,
+            "question": "How to manage MLC Rest Hours Violations?",
+            "answer": "...",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1775834025385,
+            "question": "MLC Elements and what is the role of flag state in that ?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (CHANDRA SHEKHAR SIR)"
+            ]
+          },
+          {
+            "id": 1775834096136,
+            "question": "What is Young Seafarers?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (YADAV SIR)"
+            ]
+          },
+          {
+            "id": 1775834215412,
+            "question": "What is MLC? Explain DMLC1 & DMLC2?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (CHANDRA SHEKHAR SIR)"
+            ]
+          },
+          {
+            "id": 1775834299403,
+            "question": "What is MLC? What is Ship Owner's Liability? MLC Latest Amendments?",
+            "answer": "...",
+            "labels": [
+              "NOIDA / MUMBAI (MUDIT SIR)"
+            ]
+          },
+          {
+            "id": 1775834358394,
+            "question": "MLC Deficiency?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (BRIJ SIR)"
+            ]
+          },
+          {
+            "id": 1775834416981,
+            "question": "What is MLC & What is the minimum age of Young Seafarers?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (UPENDRA SIR)"
+            ]
+          },
+          {
+            "id": 1775834528658,
+            "question": "What is MLC? Rest and Work under MLC? Owner's Liability under MLC?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (MUDIT SIR)"
+            ]
+          },
+          {
+            "id": 1775834661303,
+            "question": "What are the Titles of MLC?",
+            "answer": "..",
+            "labels": [
+              "NOIDA / MUMBAI (BANSAL SIR)"
+            ]
+          },
+          {
+            "id": 1775834976368,
+            "question": "MLC titles ? mlc major deficiency? ",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (CHANDRA SHEKHAR SIR)"
+            ]
+          }
+        ],
+        "STCW": [
+          {
+            "id": 1,
+            "question": "What is STCW?",
+            "answer": "Standards of Training Certification and Watchkeeping."
+          },
+          {
+            "id": 2,
+            "question": "Why STCW important?",
+            "answer": "Ensures competency of seafarers."
+          }
+        ],
+        "SOLAS": [
+          {
+            "id": 1,
+            "question": "What is SOLAS?",
+            "answer": "Safety of Life at Sea Convention."
+          },
+          {
+            "id": 2,
+            "question": "Purpose of SOLAS?",
+            "answer": "Ensures ship safety."
+          }
+        ],
+        "MARPOL": [
+          {
+            "id": 1,
+            "question": "What is MARPOL?",
+            "answer": "Convention to prevent marine pollution."
+          },
+          {
+            "id": 2,
+            "question": "Annexes in MARPOL?",
+            "answer": "6 annexes."
+          }
+        ],
+        "PSC": [
+          {
+            "id": 1,
+            "question": "What is PSC?",
+            "answer": "Port State Control inspection."
+          },
+          {
+            "id": 2,
+            "question": "Purpose of PSC?",
+            "answer": "Check ship compliance."
+          },
+          {
+            "id": 1774891419979,
+            "question": "WHAT IS PSC",
+            "answer": "PSCCC"
+          },
+          {
+            "id": 1774891460986,
+            "question": "WHAT IS CLEAR GROUNDS in PSC",
+            "answer": "explain with example also where it is mentioned which article notice or regulation",
+            "labels": []
+          },
+          {
+            "id": 1775670707347,
+            "question": "what is difference between PORT STATE, FLAG STATE & COASTAL STATE?",
+            "answer": "Port State - State where the foreign flagged vessels Calls.\n\nCoastal State - State whose water the ships passes without calling its port.\n\nFlag State - State whose flag the Ship is entitled to fly.\n\n\n\n\n2. Unclos - prime responsibility \nArticle 94 - duties of flag state \nArticle 217 - Enforcement by flag states\n\nArticle 218 - Enforcement by Port State\n\nPort State acts as a backup to flag state or act as a safety net to catch substandard ships",
+            "labels": []
+          },
+          {
+            "id": 1775670941793,
+            "question": "what is flag state and port state ? (mention unclos articles numbers and also describe with example)",
+            "answer": ".",
+            "labels": []
+          },
+          {
+            "id": 1775757174393,
+            "question": "What will PSC Inspector check after coming Onboard?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI MMD (SANJIB SIR)",
+              "MOSTLY ASKED"
+            ]
+          },
+          {
+            "id": 1775757287377,
+            "question": "PSC Inspection? Difference between Initial & Detailed Inspection?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI MMD (BRIJ SIR)"
+            ]
+          },
+          {
+            "id": 1775757468993,
+            "question": "PSC Inspection Procedure & Documents Required if any? Criteria of PSC Inspection? What PSC do first once it comes Onboard?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI MMD (BRIJ SIR)"
+            ]
+          },
+          {
+            "id": 1775757632677,
+            "question": "Advantages of PSC MOU's?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI MMD (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1775757759403,
+            "question": "PSC purpose? What are the different MOU's and why?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI MMD (KAMATH SIR)",
+              "MOSTLY ASKED"
+            ]
+          },
+          {
+            "id": 1775815304167,
+            "question": "what is sss",
+            "answer": "hhihioiho",
+            "labels": [
+              "kjnknnkkk",
+              "jojojojo"
+            ]
+          },
+          {
+            "id": 1775819962835,
+            "question": "why needed",
+            "answer": ".",
+            "labels": [
+              "mumnai",
+              "noida"
+            ]
+          }
+        ],
+        "imo": [
+          {
+            "id": 1774874441367,
+            "question": "skskks",
+            "answer": "jjasj"
+          }
+        ],
+        "UNCLOS": [
+          {
+            "id": 1775033316166,
+            "question": "What is UNCLOS?",
+            "answer": "UNCLOS is the umbrella convention or father of all Conventions"
+          },
+          {
+            "id": 1775319889041,
+            "question": "ahahh",
+            "answer": "ajajja"
+          },
+          {
+            "id": 1775319911432,
+            "question": "aa",
+            "answer": "aa"
+          }
+        ],
+        "RISK ASSESMENT": [
+          {
+            "id": 1775312376393,
+            "question": "DDDDDDD",
+            "answer": "DDDDD"
+          }
+        ],
+        "SEQ SURVEY": [
+          {
+            "id": 1775312390879,
+            "question": "EEEEEEE",
+            "answer": "EEEEEEEE"
+          }
+        ],
+        "LIABILITY CONVENTIONS": [
+          {
+            "id": 1775312418602,
+            "question": "EEEEE",
+            "answer": "EEEEEEEEE"
+          }
+        ],
+        "COMMON STRUCTURE RULES": [
+          {
+            "id": 1775312444275,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEEEEEEEEE"
+          }
+        ],
+        "LOADLINE CONVENTION": [
+          {
+            "id": 1775312461489,
+            "question": "RRRRRRRRR",
+            "answer": "RRRRRRRRRRR"
+          }
+        ],
+        "ESP CODE": [
+          {
+            "id": 1776254032058,
+            "question": "ESP & Substantial Corrosion? Where to check Thickness?",
+            "answer": "For Thickness wanted to hear Girth in Bulk Carrier",
+            "labels": [
+              "KOLKATA (GANGULY SIR)"
+            ]
+          },
+          {
+            "id": 1776254590719,
+            "question": "ESP? Comes under which Documents?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (BISWAS SIR)"
+            ]
+          },
+          {
+            "id": 1776254643308,
+            "question": "Key Documents of ESP?",
+            "answer": "1. condition evaluation report - final report (EHS) - Executive hull summary\n2. ESP SURVEY FILE which includes\n1. survey report \n2. hull summary report\n3. thickness measurement report\n",
+            "labels": [
+              "KOLKATA (GOPI SIR)"
+            ]
+          },
+          {
+            "id": 1776254703256,
+            "question": "ESP close-up survey & Substantial Corrosion?",
+            "answer": "Close-up survey is a survey where the details of structural components are within the close visual inspection range of the surveyor that is normally within reach of hand. SUBSTANTIAL CORROSION - is an extent of corrosion such that assessment of corrosion pattern indicates wastage in excess of 75% of allowable margins, but within acceptable limits. for example - suppose a new vessel is being build, and classification society says that minimum 20mm thick plate should be there. and i want to run my vessel for minimum 20 years, so i will keep the thickness a bit extra, that is let it be 5mm which will be the safety margin or called as allowable margin. Now if corrosion occurs and allowable margin is corroded more than 75%, means if the corrosion goes above 75% it is called substantial corrosion.\n\n\none more example - suspected area where substantial corrosion happens. when a plate is checked for suspected area and substantial corrosion, having allowable margin. onboard we have two files - ship construction file (scf) and ctf (coating thickness file). these files will tell you what the allowable margin for that plate is.  suppose allowable margin is 5mm, so 75% of this allowable margin if corroded, then it has entered substantial corrosion.  \n\n\nnow if you are sailing and substantial corrosion is found by surveyor, and drydock is after 9 months, the first action is renew the plate, but cant be done in sea , so temporary actions can be taken.\n\n1. Hard Epoxy Paint\n2. Putty repair can be done\n3. DD renew the plate.\n",
+            "labels": [
+              "KOLKATA (SK SARKAR SIR)"
+            ]
+          },
+          {
+            "id": 1776254789346,
+            "question": "Difference between CAS & ESP?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (SKD SIR)"
+            ]
+          },
+          {
+            "id": 1776254848447,
+            "question": "What is ESP & What does it signifies ?",
+            "answer": "ESP CODE  - ENHANCED (detailed) SURVEY PROGRAM only focus about structural strength and integrity of PLATING , CORROSION etc. It is developed to provide a consistent survey standard for the regular and safe survey of cargo and ballast areas of oil tankers and bulk carriers. APPLICABLE TO - OIL TANKERS & BULK CARRIERS of 500 gt and above.",
+            "labels": [
+              "KOLKATA (HOON SIR)"
+            ]
+          },
+          {
+            "id": 1776254878990,
+            "question": "ESP in detail?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (BK ROY SIR)"
+            ]
+          },
+          {
+            "id": 1776254928974,
+            "question": "What is ESP?",
+            "answer": "ESP - International Code for the Enhanced Programme of Inspections during Surveys of Bulk Carriers and Oil Tankers. ESP is mentioned in SOLAS Chapter XI-1, Regulation -2. ESP CODE was adopted in 2011and came into force in 2014. Before ESP CODE, resolution - A.744(18) was there which laid GUIDELINES on ENHANCED PROGRAMME, adopted on 4th November 1993, after which in 2011, resolution - a.1049(27) was passed and these guidelines were made mandatory which is now mentioned in SOLAS Chapter XI-1, Regulation 2 - ENHANCED SURVEYS.\n\n\nESP CODE applies to Bulk Carriers and Oil Tankers of 500 GT and Above.",
+            "labels": [
+              "KOLKATA (SKD SIR)"
+            ]
+          },
+          {
+            "id": 1776255017349,
+            "question": "In which SOLAS Chapter does ESP comes?",
+            "answer": ".ESP CODE is included in SOLAS Chapter XI-1 , Regulation number - 2.",
+            "labels": [
+              "KOLKATA (SRINIVASAN SIR)"
+            ]
+          },
+          {
+            "id": 1776255087896,
+            "question": "ESP - What checks between hatch cover?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (BK ROY SIR)"
+            ]
+          },
+          {
+            "id": 1776255141454,
+            "question": "Explain ESP?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (MUKHERJEE SIR)"
+            ]
+          },
+          {
+            "id": 1776255216432,
+            "question": "What is ESP? Which Chapter of SOLAS? What all are checked?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (GOPI SIR)"
+            ]
+          },
+          {
+            "id": 1776255332046,
+            "question": "ESP of Tanker Ship? Which Part? What are the Regulations?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (MUKHERJEE SIR)"
+            ]
+          },
+          {
+            "id": 1776255641366,
+            "question": "ESP - What are the areas to inspect?",
+            "answer": "ESP CODE - shall apply to surveys of hull structure and piping systems in way of Cargo tanks, pump rooms, cofferdams, pipe tunnels, void spaces within the cargo area and all ballast tanks",
+            "labels": [
+              "KOLKATA (BANERJEE SIR)"
+            ]
+          },
+          {
+            "id": 1776255688436,
+            "question": "ESP special feature?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (HOON SIR)"
+            ]
+          },
+          {
+            "id": 1776255780965,
+            "question": "ESP - regulation or resolution? Why only Bulk and Tanker?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (BISWAS SIR)"
+            ]
+          },
+          {
+            "id": 1776256443547,
+            "question": "ESP full form? Which Chapter of SOLAS?",
+            "answer": "..",
+            "labels": [
+              "KOLKATA (SRINIVASAN SIR)"
+            ]
+          },
+          {
+            "id": 1776256525760,
+            "question": "What is ESP CODE? in which chapter of solas it is mentioned and is applicable for which ships?",
+            "answer": "ESP CODE is mentioned in SOLAS Chapter XI-1, regulation number II. ESP CODE applies to OIL TANKER & BULK CARRIERS as per IMO, and as per class it is applicable to CHEMICAL TANKER TOO",
+            "labels": [
+              "KOLKATA (SRINIVASAN SIR)"
+            ]
+          },
+          {
+            "id": 1776262616524,
+            "question": "esp and certificates issued after esp",
+            "answer": "SAFCON\n\n\n",
+            "labels": [
+              "KOLKATA (HOON SIR)"
+            ]
+          },
+          {
+            "id": 1776262685365,
+            "question": "ESP what it does and how it does",
+            "answer": "J",
+            "labels": [
+              "KOLKATA (HOON SIR)"
+            ]
+          },
+          {
+            "id": 1776262714630,
+            "question": "ESP SURVEY? WHY ENHANCED?",
+            "answer": "It is more structured and organized, covers check of structure in close up survey and also specifies the area and frequency of checks to be done. ",
+            "labels": [
+              "KOLKATA (HOON SIR)"
+            ]
+          },
+          {
+            "id": 1776262753780,
+            "question": "ESP CODE AND SCHEME",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (BK ROY SIR)"
+            ]
+          },
+          {
+            "id": 1776262910553,
+            "question": "ESP SSURVEY",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ANIL DESWAL SIR)"
+            ]
+          },
+          {
+            "id": 1776262962910,
+            "question": "ESP CODE & SUBSTANTIAL CORROSION",
+            "answer": "F",
+            "labels": [
+              "NOIDA / MUMBAI (BRIJESH SIR)"
+            ]
+          },
+          {
+            "id": 1776263011589,
+            "question": "ESP how to carry out? purpose ?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ANIL DESWAL SIR)"
+            ]
+          },
+          {
+            "id": 1776263072602,
+            "question": "New amendments in sire 2.0 related to ESP",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1776263103477,
+            "question": "ESP",
+            "answer": "1",
+            "labels": [
+              "NOIDA / MUMBAI (GADKAR SIR)"
+            ]
+          },
+          {
+            "id": 1776263140511,
+            "question": "What is ESP ? content in ESP file",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (RAJEEV WAD SIR)"
+            ]
+          },
+          {
+            "id": 1776263206931,
+            "question": "Annual survey of ESP, how will you prepare?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1776263250069,
+            "question": "ESP annexes?",
+            "answer": "ESP CODE is divided into 2 Parts : ANNEX A & ANNEX B, which are further divided into sub parts that is ANNEX A is divided into Part A and PART B and same for ANNEX B. ANNEX A talks about Bulk Carriers in which Part A covers single - side skin construction and Part B covers Double - side skin construction. ANNEX B talks about Oil Tankers in which PART A covers double hull oil tankers and Part B covers survey of tankers other than double hull oil tankers",
+            "labels": [
+              "NOIDA / MUMBAI (RAJEEV WAD SIR)"
+            ]
+          },
+          {
+            "id": 1776263273806,
+            "question": "ESP latest amendments",
+            "answer": "1.Initially for BULK CARRIERS and OIL TANKERS, the coating condition was different - but now this is made same or identical.\n\n2. annual examination will be implemented after the first renewal or intermediate survey that is if the coating condition is not good at 5th year that is first renewal the coating of a tank is found not good, that after first renewal the tank is to be checked every year for coating.\n\n3. Vessel carrying ASPHALT, that is oil tankers carrying asphalt will not be included in ESP CODE\n\n4.CARGO tank testing by ships crew is included - pressure testing to check leaks.\ncame on 1st july 2024\n\n\nolder one which can in msc101, was on oil tankers 20000 tonnes dwt and above starting with renewal survey no3 15 years, shall be carried out by at least two surveyors of an administration.\n\nmsc 108 - approval and certification procedures of firms engaged in thickness measurement of hull structures Has to given by the administration (clear idea about adminstration will be provided)\nentered in force on january 1 2026\n",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1776263314506,
+            "question": "ESP on which type of ships",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (BRIJ SIR)"
+            ]
+          },
+          {
+            "id": 1776263382766,
+            "question": "What is ESP ? WHAT WILL BE THE PROCEDURE OF THE SURVEYORS WILL CONDUCT THE SURVEY",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1776263426423,
+            "question": "New regulations in ESP for bulk and oil tanker ?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (UPENDRA SIR)"
+            ]
+          },
+          {
+            "id": 1776263478365,
+            "question": "WHAT  is  ESP ?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ARBIND SIR)"
+            ]
+          },
+          {
+            "id": 1776263533775,
+            "question": "What is ESP ? What are the items chief engineer cant survey under esp?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1776263554986,
+            "question": "ESP latest Amendments?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (NIJHAWAN SIR)"
+            ]
+          },
+          {
+            "id": 1776263627800,
+            "question": "What is ESP ? and duration and as 2nd engineer in er what can you show in terms of esp",
+            "answer": "Along with Structural and Piping system only Ig system can be shown. \n\nfor example VLCC is carrying crude oil so the hazard is h2s, so for example the ship was carrying high h2s, so the IG SYSTEM was working, surveyor can ask for records of IG SYSTEM, how much oxygen was kept in tanks. 3.5-4% and if records are found good , no need to check tanks.\n\n\nbut when we go for CAP OR CAS,  condition assesment programme, which is for vetting. in this along with cargo, piping and machineries will also come , where we get ratings like CAP1 and CAP2 and this is voluntary.\n\nCAS for single hull tankers",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1776263696430,
+            "question": "what is ESP code and explain all details on it",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ANIL DESWAL SIR)"
+            ]
+          },
+          {
+            "id": 1776263783083,
+            "question": "ESP new ammendments ",
+            "answer": "D",
+            "labels": [
+              "NOIDA / MUMBAI (UMA SHANKAR SIR)"
+            ]
+          },
+          {
+            "id": 1776263813023,
+            "question": "Why we do ESP",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ANIL DESWAL SIR)"
+            ]
+          },
+          {
+            "id": 1776263927902,
+            "question": "What is ESP? and application of which ships and frequency and what are the things they will check in er",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1776263974463,
+            "question": "What do you understand by ESP SCOPE of ESP ",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ANIL DESWAL SIR)"
+            ]
+          },
+          {
+            "id": 1776264066875,
+            "question": "ESP",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SANJIB SIR)"
+            ]
+          },
+          {
+            "id": 1776264122482,
+            "question": "What is ESP Survey ?2e responsibility for esp?",
+            "answer": "planning as 2E \n1. assisting in and ensuring proper ventilation/ gas free\n2. ensure multi gas detectors are calibrated.\n3. proper illumination is there\n4. plating is clean, no cargo residues\n5.ensure clear and safe access to the structure.\n\nstagging and ladders, hydraulic arm vehicles, using a inflatable raft, remote inspections using drones, and proper means of communication, medical and rescue measures - these all things can be proposed while inspection\n",
+            "labels": [
+              "NOIDA / MUMBAI (GADKAR SIR)"
+            ]
+          },
+          {
+            "id": 1776264199850,
+            "question": "ESP file content?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (PAKRASI SIR)"
+            ]
+          },
+          {
+            "id": 1776264247104,
+            "question": "ESP Documents?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (PAKRASI SIR)"
+            ]
+          },
+          {
+            "id": 1776264340961,
+            "question": "ESP, SUBSTANTIAL CORROSION? will you renew plate ? if substantial corrosion occurs?",
+            "answer": ",",
+            "labels": [
+              "NOIDA / MUMBAI (MOHAN PAL SIR)"
+            ]
+          },
+          {
+            "id": 1776264414760,
+            "question": "Explain ESP CODE ? ESP comes under which survey?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          },
+          {
+            "id": 1776264502757,
+            "question": "ESP CODE regarding inwater survey, substantial corrosion",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (BRIJ SIR)"
+            ]
+          },
+          {
+            "id": 1776264557863,
+            "question": "ESP survey and as a 2e duties on esp survey",
+            "answer": "preparing for esp\none of the answers can be\n1. hull Paintings\n2. closing appliances\n3. engine room skylights\n4. weather tight doors\n5. sounding pipes, overboard valves\nall closing appliances of hull platings",
+            "labels": [
+              "NOIDA / MUMBAI (VISHWANATHAN SIR)"
+            ]
+          },
+          {
+            "id": 1776264688084,
+            "question": "ESP Comes under which chapter and regulations and what do you maintain in esp file?",
+            "answer": "..",
+            "labels": [
+              "NOIDA / MUMBAI (PAKRASI SIR)"
+            ]
+          },
+          {
+            "id": 1776264810016,
+            "question": "WHAT is ESP and its requirements? what is close up survey in esp?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (ARBIND SIR)"
+            ]
+          },
+          {
+            "id": 1776264871772,
+            "question": "Explain ESP and annex in it? What is thickness measurement and closeup survey ?",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (KAPOOR SIR)"
+            ]
+          },
+          {
+            "id": 1776264947474,
+            "question": "Explain ESP ?",
+            "answer": ".",
+            "labels": [
+              "CHENNAI (T MOHAN SIR)"
+            ]
+          },
+          {
+            "id": 1776264969894,
+            "question": "ESP",
+            "answer": ".",
+            "labels": [
+              "CHENNAI (MATHEW SIR)"
+            ]
+          },
+          {
+            "id": 1776265019100,
+            "question": "WHY esp for bulk carrier what u will check what is substantial corrosion",
+            "answer": "As per ANNEX 1 - at the age of less than 5 years that is renewal survey 1 - check 25% of shell frames , one transverse web with associated plating and longitudinals in two representative water ballast tanks of each type, two selected cargo hold transverse bulkheads.  at the age of less than 10 years - all shell frames in forward cargo hold and 25% of shell frames in each of the remaining cargo holds, one transverse web with associated plating and longitudinals in each water ballast tank and all cargo hold transverse bulkheads.  at the age of less than 15 years - all shell frames in forward and one other selected cargo hold and 50% of shell frames in each of the remaining cargo holds and all transverse and all transverse webs with associated plating and longitudinals in each water ballast tank .  more than 15 years - all shell frames",
+            "labels": [
+              "CHENNAI (T MOHAN SIR)"
+            ]
+          },
+          {
+            "id": 1776265058357,
+            "question": "what is ESP",
+            "answer": ".",
+            "labels": [
+              "CHENNAI (KRISHNAN SIR)"
+            ]
+          },
+          {
+            "id": 1776265134483,
+            "question": "What is ESP ?difference",
+            "answer": ".",
+            "labels": [
+              "KOCHI (RAJEEV NAIR SIR)"
+            ]
+          },
+          {
+            "id": 1776265199269,
+            "question": "What is ESP and its certification, validity. and how survey done ?",
+            "answer": ".",
+            "labels": [
+              "KOCHI (VV JOHNY SIR)"
+            ]
+          },
+          {
+            "id": 1776265253665,
+            "question": "What is esp?",
+            "answer": ",",
+            "labels": [
+              "KOCHI (JOHN SIR)"
+            ]
+          },
+          {
+            "id": 1776265304367,
+            "question": "ESP under which SOLAS cHAPTER ?",
+            "answer": ",,",
+            "labels": [
+              "KOCHI (SENTHIL SIR)"
+            ]
+          },
+          {
+            "id": 1776265369535,
+            "question": "ESP",
+            "answer": ".",
+            "labels": [
+              "KOCHI (SIMON SIR)"
+            ]
+          },
+          {
+            "id": 1776265438455,
+            "question": "Purpose of ESP in bulk carriers",
+            "answer": ".",
+            "labels": [
+              "KOCHI (SIMON SIR)"
+            ]
+          },
+          {
+            "id": 1776265488631,
+            "question": "ESP, ",
+            "answer": "/",
+            "labels": [
+              "KOCHI (SREEKUMAR SIR)"
+            ]
+          },
+          {
+            "id": 1776265533097,
+            "question": "ESP SURVEY",
+            "answer": ".",
+            "labels": [
+              "KOCHI (JOHN SIR)"
+            ]
+          },
+          {
+            "id": 1776265997256,
+            "question": "What is ESP CODE?",
+            "answer": ".",
+            "labels": [
+              "KOCHI (RAJEEV NAIR SIR), KOCHI (VV JOHNY SIR), KOCHI (T S MOHN SIR), NOIDA / MUMBAI (RAJEEV WAD SIR), NOIDA / MUMBAI (ARBIND SIR)"
+            ]
+          },
+          {
+            "id": 1776268101503,
+            "question": "what is esp",
+            "answer": ".",
+            "labels": [
+              "noida / mumbai (brij sir)",
+              "noida / mumbai (nijhawan sir)",
+              "noida / mumbai (anil deswal sir)"
+            ]
+          },
+          {
+            "id": 1776268924563,
+            "question": "WHAT IS ESP?",
+            "answer": "EJJEEJJEJJ",
+            "labels": [
+              "KOLKATA"
+            ]
+          },
+          {
+            "id": 1776513313668,
+            "question": "Why ESP CODE came for BULK CARRIERS and for OIL TANKERS? ",
+            "answer": "WHY FOR BULK CARRIERS - in 1980's a lot of bulk carriers got sanked & were Lost, the major reason were : they were single skin,above 20000 DWT, were having structural failure, average age of bulk carriers were 18 years, heavy cargo being carried, bad weather, water ingress in Cargo Holds. two of the famous accident example are DERBY SHIRE and BULK JUPITER. the main reason was structural failure.  suppose the ship sank, who will pay the money? - insurance company. so the insurance companies were losing money and they pressurized classification society. Because as per classification society - solas chapter ii-1 and regulation 3-1 states that every ship should be designed constructed and maintained as per the rules of the classification society. so when lot of bulk carriers were lost they got money from insurance companies. so IACS came into existence - international association of classification societies, which brought good surveys of bulk carriers and oil, chemical tankers.                                                                                  WHY IT CAME FOR OIL TANKERS - in mid 1980's 1st generation(ALASKAN FLEET) VLCC's, had problem of unchecked corrosion in ballast tanks requiring steel renewal by 2nd renewal inspection (after 10 years).   Following a spate accidents in bulk carriers & tankers, IACS introduced Enhanced survey program for more close up inspections of these ships in 1993.\n\nHowever, following more accidents, IMO adopted a new SOLAS chapter (Chapter XI-1) to enhance maritime safety on 04 November 1993. ESP is mandatory as per SOLAS Regulation 2 of Chapter XI-1.\n\nThe new chapter required bulk carriers and oil tankers to go through enhanced survey program.\n\non 30 November 2011, new IMO resolution (replacing the earlier one) introduced ESP Code. ESP detailed guidelines are given in the ESP code.\n\nESP Code came into force on 01 January 2014.",
+            "labels": []
+          },
+          {
+            "id": 1776520037493,
+            "question": "What is IACS and its role/function? what is ICS & IACS? Who all are the members of IACS? ",
+            "answer": "IACS made - UR Z10 (hull survey requirements), applicable to bulk carriers, chemical tankers, oil tankers.(for all three types of ships) After these requirements , It was found that the accidents reduced drastically so IMO made it Mandatory. Later IMO, Adopted ESP code which  were based on survey requirements made by IACS into mandatory form only for oil tankers and bulk carriers. chemicla tankers doesnt come under ESP CODE",
+            "labels": [
+              "KOLKATA (GANGULY SIR)",
+              "CHENNAI (KRISHNAN SIR)",
+              "CHENNAI (VELS MOHAN SIR)",
+              "KOCHI (SREEKUMAR SIR)"
+            ]
+          },
+          {
+            "id": 1776524475939,
+            "question": "ESP PROCESS?",
+            "answer": "SURVEY PROGRAMME (what all things to be checked, made by company(ship owner) and class(RO) - done before 6 month before renewal survey in drydock - tells what all to be checked and what all areas) >SURVEY PLANNING MEETING/QUESTIONAIRE \nship has to prepare\n1. Particulars of ship\n2. Ballasting and Deballasting \n3. Loading and Discharging\n4.Ship Inspection Reports (SCF)\n5. Paint Condition (CTF)\n6. Anode Conditions (ICCP and MGPS logs)\n7. Structural Design Documents\n8. IG system Records\n all this will be sent to Class which is acting as RO for Administration.\n\nship send to owners office than to class\n\n\n\n(depends on psc inspection, ism related nc /mnc, cargo carried, any damage occured) > CONDUCTING OF SURVEY (overall survey, closeup survey - check stringers, side shell plating's, bulkheads, inner structure) > SURVEY REPORTING > ESP FILE",
+            "labels": []
+          },
+          {
+            "id": 1776524825940,
+            "question": "COATING CONDITION OR RATING when the survey is conducted?",
+            "answer": "1. GOOD - condition with only minor spot rusting.\n2. FAIR - condition with local breakdown of coating at edges of stiffeners and weld connections and/or light rusting over 20% or more of areas under consideration, but less than as defined for POOR Condition\n3.POOR - condition with general breakdown of coating over 20% or more of areas or hard scale at 10% or more areas under consideration.",
+            "labels": []
+          },
+          {
+            "id": 1776583184854,
+            "question": "Different Provisions and methods to access to structures?",
+            "answer": "1. Permanent Staging\n2. Temporary Staging\n3. Rafts (old time - in tankers as hatch opening is small) but as presnt only staging is being done or drones are being used.\n4. Portable Ladders\n5.Direct Access\n6. Cherry Picker (Bulk Carriers - as hatch opening is big)",
+            "labels": []
+          },
+          {
+            "id": 1776588365304,
+            "question": "How to prepare for survey",
+            "answer": "1. tanks and spaces shall be safe to access, tanks and spaces shall be gas free and properly ventilated.\n2. Access to Structures - Permanent or temporary Staging, rafts, portable ladders, other equivalent means\n3. Equipment for survey - certification of thickness measurement team is to be checked which is provided by administration also equipment's and its calibration certificate.\n4. Enclosed Space Entry Procedures are to be followed - explosimeter, oxygen meter, breathing appratus, lifelines etc.\n\n5.\n\n ",
+            "labels": []
+          }
+        ],
+        "PSSA": [
+          {
+            "id": 1775312496419,
+            "question": "EEEEEEEEE",
+            "answer": "EEEEEEEEEEEE"
+          }
+        ],
+        "TONNAGE CONVENTION": [
+          {
+            "id": 1775312512371,
+            "question": "RRRRRRRRRRRRRR",
+            "answer": "RRRRRRRRRRRRR"
+          }
+        ],
+        "IG SYSTEM": [
+          {
+            "id": 1775312530049,
+            "question": "RRRRRRRRRRRR",
+            "answer": "RRRRRRRRRRRR"
+          }
+        ],
+        "RO CODE": [
+          {
+            "id": 1775312548777,
+            "question": "EEEEEEEEEEE",
+            "answer": "EEEEEEEEEE"
+          }
+        ],
+        "HSSC": [
+          {
+            "id": 1775312562033,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEEEEEEE"
+          }
+        ],
+        "ISPS CODE": [
+          {
+            "id": 1775312578243,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEEEEEE"
+          }
+        ],
+        "NOISE CODE": [
+          {
+            "id": 1775312595416,
+            "question": "NOISE CODE",
+            "answer": "ERRRRRRRRRR"
+          }
+        ],
+        "IMSBC CODE": [
+          {
+            "id": 1775312617333,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "ISM CODE": [
+          {
+            "id": 1775312630109,
+            "question": "EEEEEEEEE",
+            "answer": "EEEEEEEEEE"
+          }
+        ],
+        "DRYDOCK": [
+          {
+            "id": 1775312643145,
+            "question": "RRRRRRRRRR",
+            "answer": "RRRRRRRRR"
+          }
+        ],
+        "CO2 FIXED FIRE FIGHTING SYSTEM": [
+          {
+            "id": 1775312673093,
+            "question": "EEEEEEEEEEE",
+            "answer": "EEEEEEEE"
+          }
+        ],
+        "HYPERMIST SYSTEM": [
+          {
+            "id": 1775312697394,
+            "question": "RRRRRRR",
+            "answer": "FFFFFFFFFFF"
+          }
+        ],
+        "SPRINKLER SYSTEM": [
+          {
+            "id": 1775312711866,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEEEEE"
+          }
+        ],
+        "FOAM FIRE FIGHTING SYSTEM": [
+          {
+            "id": 1775312732103,
+            "question": "EEEEEEEEE",
+            "answer": "EEEEEEEEE"
+          }
+        ],
+        "HI-FOG FIRE FIGHTING SYSTEM": [
+          {
+            "id": 1775312760687,
+            "question": "RRRRRRRRR",
+            "answer": "EEEEEEEEEE"
+          }
+        ],
+        "CO2 CARGO HOLD FLOODING SYSTEM": [
+          {
+            "id": 1775312790043,
+            "question": "RRRRRRRRRRRR",
+            "answer": "RRRRRRRRRRR"
+          }
+        ],
+        "LSA": [
+          {
+            "id": 1775312816545,
+            "question": "EEEEEEE",
+            "answer": "EEEEEEEE"
+          }
+        ],
+        "TQM": [
+          {
+            "id": 1775312838018,
+            "question": "DDDDDDDD",
+            "answer": "DDDDDDDDDD"
+          }
+        ],
+        "HONKONG CONVENTION": [
+          {
+            "id": 1776269331409,
+            "question": "ihm when hongkong convention came into force? surveys under hongkong convention",
+            "answer": ".",
+            "labels": [
+              "KOCHI (SREEKUMAR SIR)"
+            ]
+          },
+          {
+            "id": 1776269364435,
+            "question": "HONGKONG CONVENTION? Certificates under it? What is IHM?",
+            "answer": ".",
+            "labels": [
+              "KOCHI (SURENDRANATH SIR)"
+            ]
+          },
+          {
+            "id": 1776269462234,
+            "question": "HONGKONG CONVENTION KEY FEATURES?",
+            "answer": ".",
+            "labels": [
+              "KOCHI (JOHN SIR)"
+            ]
+          },
+          {
+            "id": 1776269581792,
+            "question": "What is HONGKONG CONVENTION? What is your role in hongkong convention? types of surveys, and why annual survey and intermediate survey?",
+            "answer": ".",
+            "labels": [
+              "CHENNAI (MATHEW SIR)"
+            ]
+          },
+          {
+            "id": 1776269757105,
+            "question": "How Hongkong convention makes sure that rules are followed? what are key features of convention ? how to do proper recycling?",
+            "answer": ".",
+            "labels": [
+              "KOLKATA (GOPE SIR)"
+            ]
+          },
+          {
+            "id": 1776269909638,
+            "question": "Hongkong convention?",
+            "answer": ".\n",
+            "labels": [
+              "KOLKATA (HOON SIR)"
+            ]
+          },
+          {
+            "id": 1776270052269,
+            "question": "Hongkong convention? Duties and how will you prepare as 2e with hkc including IHM part 1,2,3",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (GADKAR SIR)"
+            ]
+          },
+          {
+            "id": 1776270217174,
+            "question": "hongkong conv",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (VISHWANATHAN SIR)"
+            ]
+          },
+          {
+            "id": 1776270272215,
+            "question": "Documents reqquired under hongkong convention",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (GADKAR SIR)"
+            ]
+          },
+          {
+            "id": 1776270328621,
+            "question": "HONGKONG CONVENTION",
+            "answer": ".",
+            "labels": [
+              "NOIDA / MUMBAI (SHIRISH SIR)",
+              "NOIDA / MUMBAI (PAKRASI SIR)"
+            ]
+          },
+          {
+            "id": 1776270568941,
+            "question": "tell latest convention ? as 2e you joined what will you check - ihm part1 ? what you will check when stores comes wrt hkc",
+            "answer": "declaration of goods",
+            "labels": [
+              "NOIDA / MUMBAI (KAMATH SIR)"
+            ]
+          }
+        ],
+        "NAIROBI CONVENTION": [
+          {
+            "id": 1775312896604,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEEEEEEE"
+          }
+        ],
+        "CLC BUNKER FUND": [
+          {
+            "id": 1775312919441,
+            "question": "EEEEEEEEE",
+            "answer": "EEEEEEEEE"
+          }
+        ],
+        "AFS CONVENTION": [
+          {
+            "id": 1775312934335,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEEEEEEEE"
+          }
+        ],
+        "SURVEY & CERTIFICATION": [
+          {
+            "id": 1775312970376,
+            "question": "EEEE",
+            "answer": "EEE"
+          }
+        ],
+        "MS ACT 2025": [
+          {
+            "id": 1775312986189,
+            "question": "EEEEEE",
+            "answer": "E"
+          }
+        ],
+        "SAFCON": [
+          {
+            "id": 1775313001348,
+            "question": "EEEE",
+            "answer": "EE"
+          }
+        ],
+        "PERIODICAL SURVEY": [
+          {
+            "id": 1775313019052,
+            "question": "EEEEEEE",
+            "answer": "E"
+          }
+        ],
+        "SCOPIA CLAUSE": [
+          {
+            "id": 1775313033315,
+            "question": "EEEEEEEEEE",
+            "answer": "EEEEE"
+          }
+        ],
+        "OPRC": [
+          {
+            "id": 1775313048985,
+            "question": "EEEEEEEE",
+            "answer": "EE"
+          }
+        ],
+        "DJIBOUTI CODE": [
+          {
+            "id": 1775313066725,
+            "question": "RRRRRRRRRRR",
+            "answer": "FFFFFFFFF"
+          }
+        ],
+        "TANKSCOPE AND EXPLOSIMETER": [
+          {
+            "id": 1775313085623,
+            "question": "EEEEEEEEEE",
+            "answer": "E"
+          }
+        ],
+        "ddd": []
+      }
+    },
+    "electrical": {
+      "topics": {
+        "Alternators": [
+          {
+            "id": 1,
+            "question": "What is alternator?",
+            "answer": "AC generator."
+          },
+          {
+            "id": 2,
+            "question": "Function?",
+            "answer": "Generate electricity."
+          }
+        ],
+        "Motors": [
+          {
+            "id": 1,
+            "question": "What is motor?",
+            "answer": "Converts electrical to mechanical."
+          },
+          {
+            "id": 2,
+            "question": "Types?",
+            "answer": "AC and DC motors."
+          }
+        ],
+        "AVR": [
+          {
+            "id": 1,
+            "question": "What is AVR?",
+            "answer": "Automatic Voltage Regulator."
+          },
+          {
+            "id": 2,
+            "question": "Function?",
+            "answer": "Controls voltage."
+          }
+        ],
+        "Power Factor": [
+          {
+            "id": 1,
+            "question": "What is power factor?",
+            "answer": "Cos φ."
+          },
+          {
+            "id": 2,
+            "question": "Ideal value?",
+            "answer": "1."
+          }
+        ],
+        "ICCP": [
+          {
+            "id": 1,
+            "question": "What is ICCP?",
+            "answer": "Impressed Current Cathodic Protection."
+          },
+          {
+            "id": 2,
+            "question": "Purpose?",
+            "answer": "Prevent corrosion."
+          }
+        ],
+        "iccp": [
+          {
+            "id": 1774873076526,
+            "question": "qhatsns",
+            "answer": "dkdddkk"
+          },
+          {
+            "id": 1775406188489,
+            "question": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+            "answer": "hhhhhhhhhhhhhhhh",
+            "labels": [
+              "mumbai"
+            ]
+          }
+        ],
+        "ALTERNATORS": [
+          {
+            "id": 1775311683728,
+            "question": "WWWWWW",
+            "answer": "WW"
+          }
+        ],
+        "POWER FACTOR": [
+          {
+            "id": 1775311713035,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "SYNCHROSCOPE": [
+          {
+            "id": 1775311732361,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "ALTERNATOR TRIPS": [
+          {
+            "id": 1775311754190,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "MOTORS": [
+          {
+            "id": 1775311768421,
+            "question": "WWW",
+            "answer": "WWW"
+          }
+        ],
+        "BREAKERS": [
+          {
+            "id": 1775311779429,
+            "question": "WW",
+            "answer": "WW"
+          }
+        ],
+        "BATTERIES": [
+          {
+            "id": 1775311796049,
+            "question": "WWW",
+            "answer": "WWW"
+          },
+          {
+            "id": 1775406165526,
+            "question": "hhhhh",
+            "answer": "ggggg",
+            "labels": [
+              "chennai"
+            ]
+          }
+        ],
+        "DROOP": [
+          {
+            "id": 1775311814612,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "STARTERS": [
+          {
+            "id": 1775311834043,
+            "question": "EEEEE",
+            "answer": "EE"
+          }
+        ],
+        "IP PROTECTION": [
+          {
+            "id": 1775311857294,
+            "question": "EEE",
+            "answer": "DDD"
+          }
+        ],
+        "SEMI-CONDUCTORS": [
+          {
+            "id": 1775311877990,
+            "question": "DDDD",
+            "answer": "DDDD"
+          }
+        ],
+        "SHAFT EARTHING": [
+          {
+            "id": 1775311892523,
+            "question": "EEEE",
+            "answer": "EEE"
+          }
+        ],
+        "MGPS": [
+          {
+            "id": 1775311903418,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "MEGGER": [
+          {
+            "id": 1775311927883,
+            "question": "EEEEE",
+            "answer": "EE"
+          }
+        ],
+        "HIGH VOLTAGE": [
+          {
+            "id": 1775311948428,
+            "question": "EEEEEEEE",
+            "answer": "EEEEEEEE"
+          }
+        ],
+        "TRANSFORMERS": [
+          {
+            "id": 1775311961990,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "PID CONTROLLER": [
+          {
+            "id": 1775311977829,
+            "question": "EEEEEEEE",
+            "answer": "E"
+          }
+        ],
+        "PLC": [
+          {
+            "id": 1775312035626,
+            "question": "RRR",
+            "answer": "RRR"
+          }
+        ],
+        "FIRE ALARM SYSTEM & DETECTION": [
+          {
+            "id": 1775312094133,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "MSB SAFETIES": [
+          {
+            "id": 1775312109828,
+            "question": "SS",
+            "answer": "SS"
+          }
+        ],
+        "SIPART & DP TRANSMITTER": [
+          {
+            "id": 1775312133328,
+            "question": "WWW",
+            "answer": "WW"
+          }
+        ],
+        "PRESSURE TRANSDUCER": [
+          {
+            "id": 1775312152989,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "EARTH FAULTS & EARTHING SYSTEM": [
+          {
+            "id": 1775312178143,
+            "question": "EEEEEEEEEEE",
+            "answer": "EEEEEEEEEE"
+          }
+        ],
+        "BOILER AUTOMATION": [
+          {
+            "id": 1775312201069,
+            "question": "EEEE",
+            "answer": "EEE"
+          }
+        ],
+        "RECTIFIERS": [
+          {
+            "id": 1775312251082,
+            "question": "WWWWWWWWWWWW",
+            "answer": "WWWWWWWWWW"
+          }
+        ],
+        "fffffff": [
+          {
+            "id": 1775406142502,
+            "question": "jjookjpokpkpok",
+            "answer": "iikklmlmlk",
+            "labels": [
+              "mumbai"
+            ]
+          }
+        ]
+      }
+    },
+    "motor": {
+      "topics": {
+        "Liner": [
+          {
+            "id": 1,
+            "question": "What is liner?",
+            "answer": "Cylinder liner."
+          },
+          {
+            "id": 2,
+            "question": "Function?",
+            "answer": "Protect cylinder."
+          }
+        ],
+        "Piston": [
+          {
+            "id": 1,
+            "question": "What is piston?",
+            "answer": "Moves inside cylinder."
+          },
+          {
+            "id": 2,
+            "question": "Function?",
+            "answer": "Transfers force."
+          }
+        ],
+        "Governor": [
+          {
+            "id": 1,
+            "question": "What is governor?",
+            "answer": "1️⃣ Surveyor Accepted Answer\n\nA governor is a device that automatically regulates the fuel supply to an engine to maintain constant speed, even when the load changes.\n\n2️⃣ Core Insight with Detailed Example\nCore Idea\nEngines cannot maintain speed automatically under changing loads.\n\nStory / Scenario (Hook)\n\nImagine you are sitting in the Engine Control Room (ECR) on a ship:\n\nA pump starts suddenly → electrical load on generator increases.\nEngine speed tries to drop because the same engine now has to deliver more power.\nWithout a governor: Speed drops → lights dim → pumps slow → engine unstable → voltage/frequency may fail.\n\nNow, with a governor installed:\n\nGovernor senses speed drop immediately.\nIt moves the fuel rack to supply more fuel.\nEngine power increases → speed restored → load is handled smoothly.\n\nKey Insight: Governor doesn’t control the load; it reacts to load changes by controlling fuel, keeping engine speed steady.\n\nAnalogy (Everyday Life)\nCruise Control in a car:\nUphill → car slows → cruise control increases fuel → speed constant.\nDownhill → car speeds → cruise control reduces fuel → speed constant.\n\nMemory hook: Governor = Automatic Fuel Manager → Keeps Speed Constant\n\n\nLOAD CHANGE ↑ or ↓\n       ↓\nENGINE SPEED TENDS TO CHANGE\n       ↓\nGOVERNOR SENSES SPEED VARIATION\n       ↓\nFUEL RACK ADJUSTS ↑ or ↓\n       ↓\nENGINE POWER INCREASES or DECREASES\n       ↓\nENGINE SPEED RESTORED TO NORMAL\n       ↓\nLOAD HANDLED STABLY\n\n5️⃣ Surveyor Accepted Answer (Reinforced)\nA governor is a device that automatically regulates fuel supply to an engine to maintain constant speed, by reacting to load changes and stabilizing engine operation.\n\n\n| Mistake                                                 | Reality / Core Insight                                                   |\n| ------------------------------------------------------- | ------------------------------------------------------------------------ |\n| “Governor controls load directly”                       | ❌ Load is external; governor **reacts to speed changes caused by load**  |\n| “Engine speed is instantly restored”                    | ❌ There’s a **reaction time**, but it’s fast enough for stable operation |\n| “All governors are same for single/parallel generators” | ❌ Types differ: **Droop vs Isochronous**; parallel needs droop           |\n| “Only controls speed, not power”                        | ❌ By controlling fuel → power changes → speed maintained                 |\n\n",
+            "labels": []
+          },
+          {
+            "id": 1775493666042,
+            "question": "Difference between M/E & A/E Governor ?",
+            "answer": "1️⃣ Surveyor Accepted Answer\n\nME Governor (Main Engine Governor): Controls the fuel supply to the main engine to maintain required engine speed under varying loads.\nAE Governor (Auxiliary Engine Governor): Controls the fuel supply to auxiliary engines/generators to maintain constant speed and frequency for electrical load demands.\n\n2️⃣ Insight with Elaborated Example\nCore Idea / Why They Exist\nME Governor:\nMain engine drives the ship’s propeller → speed must match navigation requirements.\nLoad on the main engine changes constantly (ship going uphill, turning, maneuvering).\nME governor maintains engine speed, ensuring smooth propulsion.\nAE Governor:\nAuxiliary engines power the ship’s electrical system (lights, pumps, electronics).\nElectrical loads fluctuate constantly → voltage and frequency must stay stable.\nAE governor maintains exact engine speed, so frequency of generators remains constant.\nScenario – Engine Room Example\nMain Engine (ME) Example:\nShip accelerating → load increases → ME governor increases fuel → maintains engine RPM → smooth propulsion.\nAuxiliary Engine (AE) Example:\nShip’s pumps and lights suddenly switch on → load on generator rises → AE governor senses speed drop → fuel adjusted → RPM restored → voltage/frequency stable.\n\nMemory hook:\n\nME = Ship movement (propulsion speed)\nAE = Electrical power (frequency/voltage)\n3️⃣ Flowchart\nME Governor (Main Engine)\nLOAD CHANGE (propulsion demand ↑/↓)\n          ↓\nENGINE SPEED TENDS TO CHANGE\n          ↓\nME GOVERNOR ADJUSTS FUEL\n          ↓\nMAIN ENGINE SPEED STABILIZED\n          ↓\nSHIP PROPULSION SMOOTH\nAE Governor (Auxiliary Engine)\nLOAD CHANGE (electrical demand ↑/↓)\n          ↓\nENGINE SPEED TENDS TO CHANGE\n          ↓\nAE GOVERNOR ADJUSTS FUEL\n          ↓\nAUX ENGINE SPEED RESTORED\n          ↓\nVOLTAGE & FREQUENCY STABLE\n\n\n4️⃣ Trap Insight (Common Mistakes)\nMistake\tReality / Insight\n“ME and AE governors are the same”\t❌ ME controls main engine speed; AE controls auxiliary engine speed for electrical load\n“AE governor controls load”\t❌ AE governor reacts to speed drop caused by load, does not control load directly\n“ME governor maintains electrical frequency”\t❌ Only AE governor maintains generator frequency\n\nExam Tip: Think ME → propulsion RPM, AE → generator RPM/frequency\n\n5️⃣ Surveyor Accepted Answer (Reinforced)\n\nME Governor (Main Engine Governor): Controls the fuel supply to the main engine to maintain required engine speed under varying loads.\nAE Governor (Auxiliary Engine Governor): Controls the fuel supply to auxiliary engines/generators to maintain constant speed and frequency for electrical loads.",
+            "labels": [
+              "KOLKATA"
+            ]
+          },
+          {
+            "id": 1775493698035,
+            "question": "What is Governor Droop?",
+            "answer": "wwwwwwwwwww",
+            "labels": [
+              "KOLKATA"
+            ]
+          },
+          {
+            "id": 1775493840721,
+            "question": "One Cylinder is isolated and you found Governor Hunting. How will you rectify in Electronic Engine?",
+            "answer": "eeeeeeeee",
+            "labels": [
+              "KOLKATA"
+            ]
+          },
+          {
+            "id": 1775493917250,
+            "question": "Sensitivity of Governor? IN ELECTRICAL ALSO",
+            "answer": "rrrrrrrrrr",
+            "labels": [
+              "KOLKATA"
+            ]
+          },
+          {
+            "id": 1775494050514,
+            "question": "Explain working of Governor in M/E? What is the purpose of LOP? What are the parts of Electronic Engine?",
+            "answer": "sssssssssssss",
+            "labels": [
+              "KOLKATA (VR)"
+            ]
+          },
+          {
+            "id": 1775494141822,
+            "question": "In PID what is D in Electronic Governor of Generator?",
+            "answer": "rrrrrrrrrrrrrrr",
+            "labels": [
+              "KOLKATA MITRA"
+            ]
+          },
+          {
+            "id": 1775494206550,
+            "question": "What is Dead Band of Governor?",
+            "answer": "rrrrrrrrrrrrr",
+            "labels": [
+              "KOLKATA GAN."
+            ]
+          },
+          {
+            "id": 1775494253015,
+            "question": "Speed Droop Characteristics in governor? imp",
+            "answer": "rrrrrrrrrrrrrrrr",
+            "labels": [
+              "kolkata gan"
+            ]
+          },
+          {
+            "id": 1775494328755,
+            "question": "What is ISOCHRONOUS GOVERNOR ?",
+            "answer": "Ans: ISO means Constant.\n1. Isochronous Governor is the one which maintains same speed at no load and full load condition. i.e maintains same speed as set over the entire range of operation.\n\n2. it has ZERO DROOP setting that means the rpm doesn't fluctuate during load change\n\n3. Common on the machinery in \"run alone\" conditions\n\n4. Examples : Emergency Generator.\n",
+            "labels": [
+              "KOLKATA",
+              "GANGULY SIR"
+            ]
+          },
+          {
+            "id": 1775494411639,
+            "question": "How supervit works in electronic governor",
+            "answer": "tttttttttttt",
+            "labels": [
+              "kol gope"
+            ]
+          },
+          {
+            "id": 1775494574464,
+            "question": "what is deadband/ reason of hunting of governor? action when governor hunts? speeder spring shape and why conical",
+            "answer": "ssssssssssss",
+            "labels": [
+              "kol gan"
+            ]
+          },
+          {
+            "id": 1775494617860,
+            "question": "importance of derivatives in generator governor",
+            "answer": "eeeeeeeeeee",
+            "labels": [
+              "kol mitra"
+            ]
+          },
+          {
+            "id": 1775494707460,
+            "question": "What is dead band in centrifugal type governor ?",
+            "answer": "ssssssssss",
+            "labels": [
+              "kol gan"
+            ]
+          },
+          {
+            "id": 1775494755538,
+            "question": "one unit is having problem and governor is hunting what to do ?",
+            "answer": "fffffffffff",
+            "labels": [
+              "kol gope"
+            ]
+          },
+          {
+            "id": 1775494830887,
+            "question": "One of me units is cut off and the governor is hunting as a 2e what action you will take",
+            "answer": "sssssssss",
+            "labels": [
+              "kol gope"
+            ]
+          },
+          {
+            "id": 1775494904650,
+            "question": "governor deadband ? governor spindle rotation speed?",
+            "answer": "ddddddd",
+            "labels": [
+              "kol gan"
+            ]
+          },
+          {
+            "id": 1775494971794,
+            "question": "governor speed droop characterstics and how to adjust",
+            "answer": "dddddddddddd",
+            "labels": [
+              "kol gan"
+            ]
+          },
+          {
+            "id": 1775495032879,
+            "question": "in electronic governor pid how derivative works",
+            "answer": "fffffffffffffffffffff",
+            "labels": [
+              "kol mitra"
+            ]
+          },
+          {
+            "id": 1775495098475,
+            "question": "what is speed droop characteristics and can we sync with isochronous with droop governor",
+            "answer": "ssssssssssssssssssssss",
+            "labels": [
+              "kol gan"
+            ]
+          },
+          {
+            "id": 1775495148642,
+            "question": "electro hydraulic governor how it works and its disadvantages",
+            "answer": "mmmmmmmmmmm",
+            "labels": [
+              "kol ban"
+            ]
+          },
+          {
+            "id": 1775495194014,
+            "question": "isochronous governor? where used ?",
+            "answer": "dddddddd",
+            "labels": [
+              "kol hoon"
+            ]
+          },
+          {
+            "id": 1775495238587,
+            "question": "dead band of governor ",
+            "answer": "ssssssssss",
+            "labels": [
+              "kol gan"
+            ]
+          },
+          {
+            "id": 1775495277922,
+            "question": "type of governors ",
+            "answer": "ggggggggg",
+            "labels": [
+              "kol sanjay"
+            ]
+          },
+          {
+            "id": 1775495330128,
+            "question": "overspeed trip vs governor full details ?",
+            "answer": "bbbbbbbbbbbb",
+            "labels": [
+              "kol mukh"
+            ]
+          },
+          {
+            "id": 1775495364332,
+            "question": "isochronous governor",
+            "answer": "hhhhhhhhh",
+            "labels": [
+              "kol bis"
+            ]
+          },
+          {
+            "id": 1775495419365,
+            "question": "type of governor in ae, governor droop, load sharing in generator ?",
+            "answer": "dddddddddd",
+            "labels": [
+              "kol bis"
+            ]
+          },
+          {
+            "id": 1775559712793,
+            "question": "What is Isochronous and Droop Governor?",
+            "answer": "Onboard ⚡:\n\nSome systems need exact constant speed\nSome systems need load sharing stability\n\n👉 So we have two modes:\n\nIsochronous → No speed change (during load variation)\nDroop → Small speed change allowed (during load variation)\n\n\n🔹 2. Real Ship Example\n⚡ Isochronous (Single Generator)\nOnly one generator running\nLoad changes (pump, crane)\nRPM must remain constant\n👉 Frequency stays stable\n\n⚡ Droop (Parallel Generators)\nTwo generators running together\nLoad shared between them\n👉 Small speed drop ensures smooth sharing\n🔹 3. Logic Flow\nLoad ↑ → Speed ↓\nIsochronous → Corrects fully (no drop)\nDroop → Allows small drop\n\n          ⚙️ Load Increase\n                │\n      ┌─────────┴─────────┐\n      │                   │\n      ▼                   ▼\nIsochronous         Droop Governor\n      │                   │\nSpeed Restored       Speed Drops Slightly\nExactly              (Intentional)\n      │                   │\n❌ Not Stable         ✅ Stable Load\nin Parallel           Sharing\n\n\nIso = Same speed always\nDroop = Drop in speed\n\n✅ 1. Surveyor Accepted Answer\n“An isochronous governor maintains constant engine speed irrespective of load variations.”\n\n1️⃣ Surveyor Accepted Answer\n\nDroop Governor: Allows a small drop in engine speed as load increases, enabling parallel generators to share load safely.\nIsochronous Governor: Maintains constant engine speed, used when a single generator runs alone, ensuring stable frequency for electrical loads (AE generators).\n\n🔹 1. Real Onboard Situation\n\nYou have:\n\nGenerator 1 (Running)\nGenerator 2 (Standby)\n\nBoth are set in Isochronous mode\n\n🔹 2. Step-by-Step Scenario (Very Practical)\n⚡ Step 1: Start Generator 1\nRunning alone\nSpeed constant\nFrequency stable\n\n👉 No problem ✔\n\n⚡ Step 2: Start Generator 2\nSame RPM adjusted\nSame voltage\nReady for parallel\n\n👉 Still okay ✔\n\n⚡ Step 3: Synchronizing\nMatch:\nVoltage\nFrequency\nPhase\n\n👉 Close breaker\n\n👉 Now BOTH generators connected\n\n⚠️ Step 4: Load Sharing Begins (Problem Starts)\n\nNow:\n\nLoad increases slightly (pump starts)\n\n👉 Speed tends to drop slightly\n\n⚠️ What Generator 1 does:\n“Speed dropped → I must correct fully”\n👉 Increases fuel aggressively\n⚠️ What Generator 2 does:\n“Speed dropped → I must also correct fully”\n👉 Also increases fuel aggressively\n❗ RESULT\n\n👉 Both are trying to take FULL load\n\n➡️ No coordination\n➡️ No sharing\n\n🔥 What Happens Practically:\nLoad oscillates between generators\nOne takes more load → then other takes\nFrequency fluctuates\nSystem becomes unstable\n\n👉 This is called:\n⚠️ Hunting / Load Swinging\n\n👉 In worst case:\n❌ Generator trips\n❌ Blackout",
+            "labels": []
+          }
+        ],
+        "Crankshaft": [
+          {
+            "id": 1,
+            "question": "What is crankshaft?",
+            "answer": "Converts motion."
+          },
+          {
+            "id": 2,
+            "question": "Material?",
+            "answer": "Forged steel."
+          }
+        ],
+        "Vibration": [
+          {
+            "id": 1,
+            "question": "What is vibration?",
+            "answer": "Oscillation."
+          },
+          {
+            "id": 2,
+            "question": "Cause?",
+            "answer": "Imbalance."
+          }
+        ],
+        "LINER": [
+          {
+            "id": 1775311055876,
+            "question": "WWW",
+            "answer": "WW"
+          }
+        ],
+        "CRANKSHAFT": [
+          {
+            "id": 1775311073648,
+            "question": "SSS",
+            "answer": "SSS"
+          }
+        ],
+        "ENGINE CONSTRUCTION": [
+          {
+            "id": 1775311105698,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "INDICATOR DIAGRAMS & POWER CALCULATION": [
+          {
+            "id": 1775311148837,
+            "question": "DD",
+            "answer": "DD"
+          }
+        ],
+        "VIBRATION": [
+          {
+            "id": 1775311164604,
+            "question": "EEEEEEEEE",
+            "answer": "QQQQQQ"
+          }
+        ],
+        "STARTING AND REVERSING": [
+          {
+            "id": 1775311181251,
+            "question": "DDD",
+            "answer": "DD"
+          }
+        ],
+        "AUX ENGINE COMPLETE": [
+          {
+            "id": 1775311206879,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "THRUST BLOCK": [
+          {
+            "id": 1775311229420,
+            "question": "EEEEEEE",
+            "answer": "EEEEEEE"
+          }
+        ],
+        "PISTON": [
+          {
+            "id": 1775311242723,
+            "question": "EEEEEEEEE",
+            "answer": "EEEEEEE"
+          }
+        ],
+        "TURBOCHARGER": [
+          {
+            "id": 1775311260206,
+            "question": "TTTTTTTTTT",
+            "answer": "TT"
+          }
+        ],
+        "SPECIAL RUNNING CONDITION": [
+          {
+            "id": 1775311286095,
+            "question": "DDDDDD",
+            "answer": "D"
+          }
+        ],
+        "CROSSHEAD": [
+          {
+            "id": 1775311302123,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "CYLINDER LUBRICATION": [
+          {
+            "id": 1775311324163,
+            "question": "WWWWWWWWWWW",
+            "answer": "WWWWWWWWW"
+          }
+        ],
+        "NOX/SOX REDUCTION TECHNIQUES": [
+          {
+            "id": 1775311354048,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "EXHAUST VALVE": [
+          {
+            "id": 1775311405668,
+            "question": "WW",
+            "answer": "WWW"
+          }
+        ],
+        "PISTON RINGS": [
+          {
+            "id": 1775311420378,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "BEARINGS": [
+          {
+            "id": 1775311438177,
+            "question": "WWW",
+            "answer": "WWW"
+          }
+        ],
+        "FUEL PUMPS": [
+          {
+            "id": 1775311453637,
+            "question": "WWW",
+            "answer": "WWW"
+          }
+        ],
+        "MANEUVERING": [
+          {
+            "id": 1775311471928,
+            "question": "WWWWWWWWW",
+            "answer": "DDDDDDDD"
+          }
+        ],
+        "DERATING": [
+          {
+            "id": 1775311488234,
+            "question": "EEEEEEE",
+            "answer": "DDDDD"
+          }
+        ],
+        "SLOW STEAMING": [
+          {
+            "id": 1775311508789,
+            "question": "SLOW STEAMING",
+            "answer": "DDDD"
+          }
+        ],
+        "MILLER CYCLE": [
+          {
+            "id": 1775311522806,
+            "question": "EEE",
+            "answer": "EEE"
+          }
+        ],
+        "GOVERNORS": [
+          {
+            "id": 1,
+            "question": "WW",
+            "answer": "WE"
+          },
+          {
+            "id": 1775495652423,
+            "question": "isochronous governor where it is used ?",
+            "answer": "jjjjjjjj",
+            "labels": [
+              "kol shri"
+            ]
+          },
+          {
+            "id": 1775544856882,
+            "question": "Type of Governors?",
+            "answer": "Ans: Sir, according to Construction, there are 3 types of Governors:\n        1. Centrifugal Hydraulic Governors\n        2. Centrifugal Mechanical Governors.\n        3. Electronic Governors\n\nAlso, according to operation it can be classified into 2 types:\n       1. Isochronous Governors\n       2. Droop Governors\n\n",
+            "labels": [
+              "MUMBAI"
+            ]
+          }
+        ],
+        "CHAIN DRIVE": [
+          {
+            "id": 1775311567414,
+            "question": "DDDD",
+            "answer": "DD"
+          }
+        ],
+        "STUFFING BOX": [
+          {
+            "id": 1775311585643,
+            "question": "DDDD",
+            "answer": "DD"
+          }
+        ],
+        "SHAFT ALIGNMENT ": [
+          {
+            "id": 1775311606678,
+            "question": "SSS",
+            "answer": "SS"
+          }
+        ]
+      }
+    },
+    "mep": {
+      "topics": {
+        "Steering Gear": [
+          {
+            "id": 1,
+            "question": "What is steering gear?",
+            "answer": "Controls direction."
+          },
+          {
+            "id": 2,
+            "question": "Types?",
+            "answer": "Ram & rotary."
+          }
+        ],
+        "Purifier": [
+          {
+            "id": 1,
+            "question": "What is purifier?",
+            "answer": "Separates oil/water."
+          },
+          {
+            "id": 2,
+            "question": "Purpose?",
+            "answer": "Clean oil."
+          }
+        ],
+        "Main Air Compressor": [
+          {
+            "id": 1,
+            "question": "Function?",
+            "answer": "Supply compressed air."
+          },
+          {
+            "id": 2,
+            "question": "Types?",
+            "answer": "Reciprocating."
+          }
+        ],
+        "Stern Tube": [
+          {
+            "id": 1,
+            "question": "What is stern tube?",
+            "answer": "Supports shaft."
+          },
+          {
+            "id": 2,
+            "question": "Why lubrication?",
+            "answer": "Reduce wear."
+          }
+        ],
+        "STP": [
+          {
+            "id": 1,
+            "question": "What is STP?",
+            "answer": "Sewage Treatment Plant."
+          },
+          {
+            "id": 2,
+            "question": "Purpose?",
+            "answer": "Treat sewage."
+          }
+        ],
+        "METALLURGY": [
+          {
+            "id": 1775310582408,
+            "question": "WWW",
+            "answer": "WWW"
+          }
+        ],
+        "WELDING": [
+          {
+            "id": 1775310606405,
+            "question": "WWWWWWW",
+            "answer": "WW"
+          }
+        ],
+        "BOILERS": [
+          {
+            "id": 1775310624239,
+            "question": "EEE",
+            "answer": "EE"
+          }
+        ],
+        "PAINT SCHEME": [
+          {
+            "id": 1775310648396,
+            "question": "EEEEE",
+            "answer": "EE"
+          }
+        ],
+        "CONTROL & AUTOMATION": [
+          {
+            "id": 1775310676341,
+            "question": "WWWWWWWWWWW",
+            "answer": "DDDDDD"
+          }
+        ],
+        "PROPELLER ": [
+          {
+            "id": 1775310703719,
+            "question": "wwwwwwwwwww",
+            "answer": "ssssssssss"
+          }
+        ],
+        "STERN TUBE": [
+          {
+            "id": 1775310721807,
+            "question": "RRRRRRRRR",
+            "answer": "RRRRRRRRR"
+          }
+        ],
+        "MAIN AIR COMPRESSOR (MAC)": [
+          {
+            "id": 1775310745927,
+            "question": "DDDDDDDDD",
+            "answer": "DDDDDDD"
+          }
+        ],
+        "LATHE MACHINE": [
+          {
+            "id": 1775310781995,
+            "question": "DDDDDDD",
+            "answer": "DDDDDD"
+          }
+        ],
+        "CORROSION": [
+          {
+            "id": 1775310800928,
+            "question": "EEEEEEEE",
+            "answer": "EEEEEE"
+          }
+        ],
+        "STEERING GEAR": [
+          {
+            "id": 1775310825169,
+            "question": "JJJJJJJJJ",
+            "answer": "HHHHHH"
+          }
+        ],
+        "MATERIAL SCIENCE": [
+          {
+            "id": 1775310840799,
+            "question": "DDDDDDDDDD",
+            "answer": "DDDDDDDDDD"
+          }
+        ],
+        "REFRIGERATION": [
+          {
+            "id": 1775310859677,
+            "question": "DFFF",
+            "answer": "SSS"
+          }
+        ],
+        "VALVES": [
+          {
+            "id": 1775310869796,
+            "question": "DDDDD",
+            "answer": "DD"
+          }
+        ],
+        "OILY WATER SEPERATOR (OWS)": [
+          {
+            "id": 1775310899642,
+            "question": "DDDDDDDD",
+            "answer": "DDDDDDDDD"
+          }
+        ],
+        "FRESH WATER GENERATOR (FWG)": [
+          {
+            "id": 1775310919823,
+            "question": "DDD",
+            "answer": "DDD"
+          }
+        ],
+        "PUMPS": [
+          {
+            "id": 1775310939612,
+            "question": "DDDDDDDDD",
+            "answer": "DDDDDDDDD"
+          }
+        ],
+        "HEAT EXCHANGERS": [
+          {
+            "id": 1775310956615,
+            "question": "CCC",
+            "answer": "CC"
+          }
+        ],
+        "DECK MACHINERY": [
+          {
+            "id": 1775310975344,
+            "question": "DDDDDDDDD",
+            "answer": "DDDDDDDD"
+          }
+        ],
+        "RUDDER": [
+          {
+            "id": 1775311376721,
+            "question": "EEEE",
+            "answer": "EEEE"
+          }
+        ]
+      }
+    }
+  },
+  "meo4": {
+    "safety": {
+      "topics": {
+        "BWM": [
+          {
+            "id": 1774890996951,
+            "question": "what is bwm",
+            "answer": "it is know"
+          }
+        ]
+      }
+    },
+    "electrical": {
+      "topics": {
+        "mgps": [
+          {
+            "id": 1774784219805,
+            "question": "what is mgps",
+            "answer": "magnetic particle"
+          }
+        ]
+      }
+    },
+    "motor": {
+      "topics": {
+        "BED PLATE": [],
+        "CHOCKS AND HOLDING DOWN BOLTS": [],
+        "VIBRATION": [],
+        "CRANKSHAFT": [],
+        "BEARINGS": [],
+        "LINER": [],
+        "PISTON & PISTON RINGS": [],
+        "THRUST BLOCK": [],
+        "FUEL PUMPS": [],
+        "FUEL INJECTORS": [],
+        "STARTING AND REVERSING": [],
+        "CRANKCASE EXPLOSION ": [],
+        "CRANKCASE RELIEF VALVE": [],
+        "TURBOCHARGER": [],
+        "CROSSHEAD": [],
+        "CHAIN DRIVE": [],
+        "GOVERNORS": [
+          {
+            "id": 1,
+            "question": "What is Governor? What is its function?",
+            "answer": "👉 “Governor controls fuel supply as per load.”\n👉 “It sends signal to fuel pump → controls fuel rack movement.”\n👉 “By controlling fuel → it controls speed, load, or both (within a range).”\n\n\n❌ Governor does NOT directly control:\n\nSpeed\nLoad\n\n👉 ✅ It controls:\n\n\n\nFuel rack position → fuel quantity → power → speed/load\n\n\n“Governor controls fuel rack position based on load changes to maintain engine speed and load within a set range.”\n\n\n\n🏁 Engine Running\n        ↓\n📡 Speed Sensing (Flyweights / Sensor)\n        ↓\n⚖️ Compare with Set Speed (Reference RPM)\n        ↓\n❗ Deviation? (Speed ↑ or ↓ due to load change)\n        ↓\n🧠 Governor Decision\n        ↓\n📨 Signal to Fuel Pump\n        ↓\n🔧 Fuel Rack Movement (Key Action)\n        ↓\n⛽ Fuel Supply Adjusted\n   ↙️                      ↘️\n⬇️ Less Fuel           ⬆️ More Fuel\n(Overspeed)           (Load ↑ / Speed ↓)\n        ↓\n🔥 Engine Power Changes\n        ↓\n⚙️ Speed / Load Controlled (Within Set Range)\n        ↓\n🔁 Continuous Cycle\n\n",
+            "labels": [
+              "MUMBAI"
+            ]
+          },
+          {
+            "id": 2,
+            "question": "what is governor ?",
+            "answer": "🏁 Engine Running\n        ↓\n📡 Speed Sensing (Flyweights / Sensor)\n        ↓\n⚖️ Compare with Set Speed (Reference RPM)\n        ↓\n❗ Deviation? (Speed ↑ or ↓ due to load change)\n        ↓\n🧠 Governor Decision\n        ↓\n📨 Signal to Fuel Pump\n        ↓\n🔧 Fuel Rack Movement (Key Action)\n        ↓\n⛽ Fuel Supply Adjusted\n   ↙️                      ↘️\n⬇️ Less Fuel           ⬆️ More Fuel\n(Overspeed)           (Load ↑ / Speed ↓)\n        ↓\n🔥 Engine Power Changes\n        ↓\n⚙️ Speed / Load Controlled (Within Set Range)\n        ↓\n🔁 Continuous Cycle",
+            "labels": []
+          },
+          {
+            "id": 1775487143010,
+            "question": "Types of Governors ?",
+            "answer": "qqq",
+            "labels": []
+          },
+          {
+            "id": 1775487218567,
+            "question": "What is Governor Droop? Difference between Governor Droop and AVR Droop?",
+            "answer": "wwkwekkee",
+            "labels": []
+          },
+          {
+            "id": 1775487262009,
+            "question": "What is the purpose of Droop?",
+            "answer": "kflffkflfkf",
+            "labels": []
+          },
+          {
+            "id": 1775487292058,
+            "question": "What is Governor Hunting ?",
+            "answer": "dddddddddddddd",
+            "labels": []
+          },
+          {
+            "id": 1775487358439,
+            "question": "Difference Between M/E Governor and A/E Governor ?",
+            "answer": "rrrrrrrrrrrrr",
+            "labels": []
+          },
+          {
+            "id": 1775487608562,
+            "question": "What type of Motor is used in Governor and why such type?",
+            "answer": "hhhhhhhhhhhhhhh",
+            "labels": []
+          },
+          {
+            "id": 1775487637237,
+            "question": "How to measure Governor Droop ?",
+            "answer": "hhhhhhhhhhh",
+            "labels": []
+          },
+          {
+            "id": 1775487678457,
+            "question": "What is Dead Band in Governor?",
+            "answer": "What is Dead Band in Governor?",
+            "labels": []
+          },
+          {
+            "id": 1775487709363,
+            "question": "Explain working of Governor ?",
+            "answer": "bbbbbbbbbbbbbb",
+            "labels": []
+          },
+          {
+            "id": 1775487771335,
+            "question": "Types of Governors and working? how Governor senses Load and Speed?",
+            "answer": "ddddddddddddddddddd",
+            "labels": []
+          },
+          {
+            "id": 1775487807991,
+            "question": "What Knobs are there on AE?",
+            "answer": "vvvvvvvvvvvvvvvvvvvvvvvv",
+            "labels": []
+          }
+        ],
+        "AUXILIARY ENGINE": []
+      }
+    },
+    "mep": {
+      "topics": {
+        "STP": [
+          {
+            "id": 1775032768224,
+            "question": "WHAT IS STP",
+            "answer": "GHJHHJ"
+          }
+        ],
+        "PUMPS": [],
+        "STEERING GEAR": [],
+        "RUDDER": [],
+        "PROPELLER": [],
+        "STERN TUBE": [],
+        "VALVES": [],
+        "REFRIGERATION SYSTEM": [],
+        "MAIN AIR COMPRESSOR (MAC)": [],
+        "FRESH WATER GENERATOR": [],
+        "OILY WATER SEPERATOR (OWS)": [],
+        "PURIFIERS": [],
+        "BOILERS": [],
+        "WELDING": [],
+        "METALLURGY": [],
+        "CORROSION": [],
+        "HEAT TREATMENT": [],
+        "LATHE MACHINE": [],
+        "IRON CARBIDE DIAGRAM": [],
+        "HEAT EXCHANGERS": [],
+        "DECK MACHINERY": [],
+        "BRAKE RENDERING TEST": []
+      }
+    }
+  }
+}
