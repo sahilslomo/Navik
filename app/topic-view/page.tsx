@@ -71,12 +71,16 @@ function TopicViewContent() {
     }
   };
 
-  // Load q
+  // Load questions
   useEffect(() => {
     if (!courseClass || !subject || !topic) return;
     const loadData = async () => {
-      const res = await fetch(
-  `/api/questions?className=meo${courseClass}&subject=${subject?.toLowerCase()}&topic=${topic}`
+      const safeClassName = courseClass?.startsWith("meo")
+  ? courseClass
+  : `meo${courseClass}`;
+
+const res = await fetch(
+  `/api/questions?className=${safeClassName}&subject=${subject?.toLowerCase()}&topic=${topic}`
 );
 
 const result = await res.json();
