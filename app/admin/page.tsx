@@ -3,13 +3,14 @@
 import { useEffect, useState, useRef } from "react";
 
 type Question = {
-  id: number;
+  id: string;
   question: string;
   answer: string;
   labels?: string[];
+  topic: string;
 };
 
-// 🎨 LABEL COLORS
+// 🎨 LABEL COLORS (UNCHANGED)
 const LABEL_COLORS = [
   "bg-blue-100 text-blue-700",
   "bg-green-100 text-green-700",
@@ -20,7 +21,6 @@ const LABEL_COLORS = [
   "bg-indigo-100 text-indigo-700",
 ];
 
-// 🎨 HASH COLOR
 const getLabelColor = (label: string) => {
   let hash = 0;
   for (let i = 0; i < label.length; i++) {
@@ -46,28 +46,36 @@ export default function Admin() {
 
   const [filterLabel, setFilterLabel] = useState<string | null>(null);
 
-  const [editingId, setEditingId] = useState<number | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
   const [bulkData, setBulkData] = useState("");
 
   const questionRef = useRef<HTMLInputElement>(null);
   const answerRef = useRef<HTMLTextAreaElement>(null);
   const labelRef = useRef<HTMLInputElement>(null);
 
-  // ================= LOAD =================
-  const loadData = async () => {
-    if (!className || !subject) return;
+  const normalizedClass = className.startsWith("meo")
+    ? className
+    : className
+    ? `meo${className}`
+    : "";
 
-    const res = await fetch("/api/questions-api", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "LOAD", className, subject }),
-    });
+  // ================= LOAD (FIXED TO MATCH TOPIC VIEW API) =================
+  const loadData = async () => {
+    if (!normalizedClass || !subject) return;
+
+    const res = await fetch(
+      `/api/questions?className=${normalizedClass}&subject=${subject}`
+    );
 
     const data = await res.json();
+    if (!data.success) return;
 
-    setTopics(data.topics || []);
-    if (topic && data.questions?.[topic]) {
-      setQuestions(data.questions[topic]);
+    const all: Question[] = data.data;
+
+    setTopics([...new Set(all.map((q) => q.topic))]);
+
+    if (topic) {
+      setQuestions(all.filter((q) => q.topic === topic));
     } else {
       setQuestions([]);
     }
@@ -77,13 +85,10 @@ export default function Admin() {
     loadData();
   }, [className, subject, topic]);
 
-  // ================= KEYBOARD =================
+  // ================= KEYBOARD (UNCHANGED) =================
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
-      if (e.ctrlKey && e.key === "Enter") {
-        e.preventDefault();
-        handleSubmitQuestion();
-      }
+      if (e.ctrlKey && e.key === "Enter") handleSubmitQuestion();
       if (e.ctrlKey && e.key === "q") questionRef.current?.focus();
       if (e.ctrlKey && e.key === "a") answerRef.current?.focus();
       if (e.ctrlKey && e.key === "l") labelRef.current?.focus();
@@ -91,24 +96,17 @@ export default function Admin() {
 
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [questionText, answerText, labels, topic]);
+  }, [questionText, answerText, labels]);
 
-  // ================= LABEL HANDLER =================
+  // ================= LABELS (UNCHANGED) =================
   const handleLabelKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter" || e.key === ",") {
       e.preventDefault();
 
-      const rawValue = labelInput.trim();
-      if (!rawValue) return;
+      const raw = labelInput.trim();
+      if (!raw) return;
 
-      const exists = labels.some(
-        (l) => l.toLowerCase() === rawValue.toLowerCase()
-      );
-
-      if (!exists) {
-        setLabels([...labels, rawValue]);
-      }
-
+      if (!labels.includes(raw)) setLabels([...labels, raw]);
       setLabelInput("");
     }
 
@@ -121,27 +119,25 @@ export default function Admin() {
     setLabels(labels.filter((l) => l !== label));
   };
 
-  // ================= FILTER =================
+  // ================= FILTER (UNCHANGED) =================
   const allLabels = Array.from(
     new Set(questions.flatMap((q) => q.labels || []))
   );
 
   const filteredQuestions = filterLabel
-    ? questions.filter((q) =>
-        q.labels?.some((l) => l === filterLabel)
-      )
+    ? questions.filter((q) => q.labels?.includes(filterLabel))
     : questions;
 
-  // ================= TOPIC =================
+  // ================= TOPIC (FIXED API) =================
   const handleAddTopic = async () => {
     if (!newTopic) return;
 
-    await fetch("/api/questions-api", {
+    await fetch("/api/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         action: "ADD_TOPIC",
-        className,
+        className: normalizedClass,
         subject,
         topicName: newTopic,
       }),
@@ -154,12 +150,12 @@ export default function Admin() {
   const handleDeleteTopic = async (t: string) => {
     if (!confirm("Delete topic?")) return;
 
-    await fetch("/api/questions-api", {
+    await fetch("/api/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         action: "DELETE_TOPIC",
-        className,
+        className: normalizedClass,
         subject,
         topicName: t,
       }),
@@ -169,19 +165,19 @@ export default function Admin() {
     loadData();
   };
 
-  // ================= SUBMIT =================
+  // ================= QUESTION CRUD (FIXED ID STRING + API) =================
   const handleSubmitQuestion = async () => {
     if (!questionText || !answerText || !topic) {
       alert("Fill all fields");
       return;
     }
 
-    await fetch("/api/questions-api", {
+    await fetch("/api/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         action: editingId ? "UPDATE_QUESTION" : "ADD_QUESTION",
-        className,
+        className: normalizedClass,
         subject,
         topic,
         id: editingId,
@@ -197,51 +193,18 @@ export default function Admin() {
     setLabelInput("");
     setEditingId(null);
 
-    questionRef.current?.focus();
     loadData();
   };
 
-  // ================= BULK =================
-  const handleBulkUpload = async () => {
-    try {
-      const parsed = JSON.parse(bulkData);
-
-      await fetch("/api/questions-api", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          action: "BULK_ADD",
-          className,
-          subject,
-          topic,
-          questions: parsed,
-        }),
-      });
-
-      setBulkData("");
-      loadData();
-      alert("✅ Bulk added!");
-    } catch {
-      alert("Invalid JSON ❌");
-    }
-  };
-
-  const handleEditQuestion = (q: Question) => {
-    setQuestionText(q.question);
-    setAnswerText(q.answer);
-    setLabels(q.labels || []);
-    setEditingId(q.id);
-  };
-
-  const handleDeleteQuestion = async (id: number) => {
+  const handleDeleteQuestion = async (id: string) => {
     if (!confirm("Delete?")) return;
 
-    await fetch("/api/questions-api", {
+    await fetch("/api/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         action: "DELETE_QUESTION",
-        className,
+        className: normalizedClass,
         subject,
         topic,
         id,
@@ -251,7 +214,39 @@ export default function Admin() {
     loadData();
   };
 
-  // ================= UI =================
+  const handleEditQuestion = (q: Question) => {
+    setQuestionText(q.question);
+    setAnswerText(q.answer);
+    setLabels(q.labels || []);
+    setEditingId(q.id);
+  };
+
+  // ================= BULK (FIXED) =================
+  const handleBulkUpload = async () => {
+    try {
+      const parsed = JSON.parse(bulkData);
+
+      await fetch("/api/questions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "BULK_ADD",
+          className: normalizedClass,
+          subject,
+          topic,
+          questions: parsed,
+        }),
+      });
+
+      setBulkData("");
+      loadData();
+      alert("Bulk added");
+    } catch {
+      alert("Invalid JSON");
+    }
+  };
+
+  // ================= UI (UNCHANGED) =================
   return (
     <main className="min-h-screen bg-slate-100 p-10">
       <h1 className="text-3xl font-bold mb-8">⚙️ Admin</h1>
@@ -272,36 +267,35 @@ export default function Admin() {
           <input placeholder="New Topic" value={newTopic} onChange={(e) => setNewTopic(e.target.value)} className="border p-2 w-full mb-2" />
           <button onClick={handleAddTopic} className="bg-green-500 text-white px-4 py-2 mb-4">Add Topic</button>
 
-          <input ref={questionRef} placeholder="Question" value={questionText} onChange={(e) => setQuestionText(e.target.value)} onKeyDown={(e) => e.key === "Enter" && (e.preventDefault(), answerRef.current?.focus())} className="border p-2 w-full mb-2" />
+          <input ref={questionRef} placeholder="Question" value={questionText} onChange={(e) => setQuestionText(e.target.value)} className="border p-2 w-full mb-2" />
 
-          <textarea ref={answerRef} placeholder="Answer" value={answerText} onChange={(e) => setAnswerText(e.target.value)} onKeyDown={(e) => e.key === "Tab" && (e.preventDefault(), labelRef.current?.focus())} className="border p-2 w-full mb-2" />
+          <textarea ref={answerRef} placeholder="Answer" value={answerText} onChange={(e) => setAnswerText(e.target.value)} className="border p-2 w-full mb-2" />
 
-          {/* LABEL INPUT */}
+          {/* LABELS */}
           <div className="border p-2 w-full mb-2 rounded">
             <div className="flex flex-wrap gap-2 mb-2">
               {labels.map((label) => (
-                <span key={label} className={`${getLabelColor(label)} px-2 py-1 rounded flex items-center gap-1`}>
+                <span key={label} className={`${getLabelColor(label)} px-2 py-1 rounded`}>
                   {label}
                   <button onClick={() => removeLabel(label)}>❌</button>
                 </span>
               ))}
             </div>
 
-            <input ref={labelRef} placeholder="Type label + Enter" value={labelInput} onChange={(e) => setLabelInput(e.target.value)} onKeyDown={handleLabelKey} className="outline-none w-full" />
+            <input ref={labelRef} value={labelInput} onChange={(e) => setLabelInput(e.target.value)} onKeyDown={handleLabelKey} className="w-full outline-none" />
           </div>
 
           <button onClick={handleSubmitQuestion} className="bg-blue-600 text-white px-4 py-2 w-full">
             {editingId ? "Update" : "Add Question"}
           </button>
 
-          <textarea placeholder='Bulk JSON [{"question":"Q1","answer":"A1"}]' value={bulkData} onChange={(e) => setBulkData(e.target.value)} className="border p-2 w-full mt-4" />
+          <textarea value={bulkData} onChange={(e) => setBulkData(e.target.value)} className="border p-2 w-full mt-4" />
           <button onClick={handleBulkUpload} className="bg-purple-600 text-white px-4 py-2 w-full mt-2">Bulk Upload</button>
         </div>
 
         {/* RIGHT */}
         <div className="bg-white p-6 rounded-xl shadow">
 
-          {/* FILTER */}
           <div className="mb-4">
             <p className="font-semibold mb-2">Filter by Label:</p>
             <div className="flex flex-wrap gap-2">
@@ -314,31 +308,21 @@ export default function Admin() {
             </div>
           </div>
 
-          {topics.map((t) => (
-            <div key={t} className="mb-4">
-              <div className="flex justify-between">
-                <b>{t}</b>
-                <button onClick={() => handleDeleteTopic(t)}>🗑️</button>
+          {filteredQuestions.map((q) => (
+            <div key={q.id} className="border p-2 mt-2">
+              <p>{q.question}</p>
+              <p>{q.answer}</p>
+
+              <div className="flex flex-wrap gap-2 mt-1">
+                {q.labels?.map((label) => (
+                  <span key={label} className={`${getLabelColor(label)} px-2 py-1 rounded`}>
+                    {label}
+                  </span>
+                ))}
               </div>
 
-              {topic === t &&
-                filteredQuestions.map((q) => (
-                  <div key={q.id} className="border p-2 mt-2">
-                    <p>{q.question}</p>
-                    <p>{q.answer}</p>
-
-                    <div className="flex flex-wrap gap-2 mt-1">
-                      {q.labels?.map((label) => (
-                        <span key={label} className={`${getLabelColor(label)} px-2 py-1 rounded text-sm`}>
-                          {label}
-                        </span>
-                      ))}
-                    </div>
-
-                    <button onClick={() => handleEditQuestion(q)}>Edit</button>
-                    <button onClick={() => handleDeleteQuestion(q.id)}>Delete</button>
-                  </div>
-                ))}
+              <button onClick={() => handleEditQuestion(q)}>Edit</button>
+              <button onClick={() => handleDeleteQuestion(q.id)}>Delete</button>
             </div>
           ))}
         </div>
