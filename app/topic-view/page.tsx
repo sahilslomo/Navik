@@ -80,7 +80,7 @@ function TopicViewContent() {
   : `meo${courseClass}`;
 
 const res = await fetch(
-  `/api/questions?className=${safeClassName}&subject=${subject?.toLowerCase()}&topic=${topic}`
+  `/api/questions?className=${safeClassName}&subject=${subject}&topic=${topic}`
 );
 
 const result = await res.json();

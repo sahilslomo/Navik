@@ -22,9 +22,14 @@ export async function GET(req: Request) {
     const db = client.db("navik");
     const collection = db.collection("questions");
 
-    const query: any = { className, subject };
-    if (topic) query.topic = topic;
+    const query: any = {
+  className: { $regex: new RegExp(`^${className}$`, "i") },
+  subject: { $regex: new RegExp(`^${subject}$`, "i") },
+};
 
+if (topic) {
+  query.topic = { $regex: new RegExp(`^${topic}$`, "i") };
+}
     const data = await collection.find(query).toArray();
 
     const formatted = data.map((item: any) => ({
@@ -63,7 +68,7 @@ export async function POST(req: Request) {
       question,
       answer,
       labels,
-      bulkText,
+      questions,
     } = body;
 
     if (!className || !subject) {
@@ -80,7 +85,7 @@ export async function POST(req: Request) {
     // ===== ADD =====
     if (action === "ADD_QUESTION") {
       if (!topic || !question || !answer) {
-        return NextResponse.json({ success: false }, { status: 400 });
+        return NextResponse.json({ success: false, message: "Missing required fields" }, { status: 400 });
       }
 
       await collection.insertOne({
@@ -97,43 +102,32 @@ export async function POST(req: Request) {
     }
 
     // ===== BULK =====
-    if (action === "BULK_ADD") {
-      if (!topic || !bulkText) {
-        return NextResponse.json({ success: false }, { status: 400 });
-      }
+   if (action === "BULK_ADD") {
+  if (!topic || !Array.isArray(questions)) {
+    return NextResponse.json({ success: false }, { status: 400 });
+  }
 
-      const blocks = bulkText.split("###");
+  const docs = questions.map((q: any) => ({
+    className,
+    subject,
+    topic,
+    question: q.question,
+    answer: q.answer,
+    labels: q.labels || [],
+    createdAt: new Date(),
+  }));
 
-      const docs = blocks
-        .map((block: string) => {
-          const lines = block.trim().split("\n");
+  if (docs.length > 0) {
+    await collection.insertMany(docs);
+  }
 
-          if (lines.length >= 2) {
-            return {
-              className,
-              subject,
-              topic,
-              question: lines[0],
-              answer: lines.slice(1).join("\n"),
-              labels: [],
-              createdAt: new Date(),
-            };
-          }
-          return null;
-        })
-        .filter(Boolean);
-
-      if (docs.length > 0) {
-        await collection.insertMany(docs);
-      }
-
-      return NextResponse.json({ success: true }, { status: 200 });
-    }
+  return NextResponse.json({ success: true }, { status: 200 });
+}
 
     // ===== UPDATE =====
     if (action === "UPDATE_QUESTION") {
-      if (!ObjectId.isValid(id)) {
-        return NextResponse.json({ success: false }, { status: 400 });
+      if (!id || !ObjectId.isValid(id)) {
+        return NextResponse.json({ success: false, message: "Invalid ID" }, { status: 400 });
       }
 
       await collection.updateOne(
@@ -152,8 +146,8 @@ export async function POST(req: Request) {
 
     // ===== DELETE QUESTION =====
     if (action === "DELETE_QUESTION") {
-      if (!ObjectId.isValid(id)) {
-        return NextResponse.json({ success: false }, { status: 400 });
+      if (!id || !ObjectId.isValid(id)) {
+        return NextResponse.json({ success: false, message: "Invalid ID" }, { status: 400 });
       }
 
       await collection.deleteOne({
