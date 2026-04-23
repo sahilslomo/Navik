@@ -78,9 +78,18 @@ function TopicViewContent() {
       const safeClassName = courseClass?.startsWith("meo")
   ? courseClass
   : `meo${courseClass}`;
+  
+  const cacheKey = `cache_${safeClassName}_${subject}_${topic}`;
+  const cached = localStorage.getItem(cacheKey);
+
+  if (cached) {
+  const parsed = JSON.parse(cached);
+  setQuestions(parsed);
+  setFilteredQuestions(parsed);
+}
 
 const res = await fetch(
-  `/api/questions?className=${safeClassName}&subject=${subject}&topic=${topic}`
+  `/api/questions?className=${safeClassName}&subject=${subject.toLowerCase()}&topic=${topic.toLowerCase()}`
 );
 
 const result = await res.json();
@@ -88,6 +97,8 @@ const result = await res.json();
 if (!result.success) return;
 
 const topicData: Question[] = result.data;
+
+localStorage.setItem(cacheKey, JSON.stringify(topicData));
 
       const orderKey = `order_${courseClass}_${subject}_${topic}`;
       const savedOrder: string[] = safeParse(localStorage.getItem(orderKey), []);
