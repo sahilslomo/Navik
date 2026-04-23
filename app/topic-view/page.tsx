@@ -75,9 +75,14 @@ function TopicViewContent() {
   useEffect(() => {
     if (!courseClass || !subject || !topic) return;
     const loadData = async () => {
-      const safeClassName = courseClass?.startsWith("meo")
-  ? courseClass
-  : `meo${courseClass}`;
+    const safeClassName = (() => {
+    const cleaned = courseClass?.toLowerCase().replace(/\s/g, "");
+
+  if (cleaned === "2" || cleaned === "meo2") return "meo2";
+  if (cleaned === "4" || cleaned === "meo4") return "meo4";
+
+  return "";
+})();
   
   const cacheKey = `cache_${safeClassName}_${subject}_${topic}`;
   const cached = localStorage.getItem(cacheKey);
@@ -380,7 +385,7 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
 
 export default function Page() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={null}>
       <TopicViewContent />
     </Suspense>
   );
