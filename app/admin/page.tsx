@@ -27,20 +27,19 @@ export default function Admin() {
 
   const questionRef = useRef<HTMLInputElement>(null);
 
-  const normalizeClass = className.startsWith("meo")
-    ? className
-    : className
-    ? `meo${className}`
-    : "";
+  const normalizeClass = className
+  ? (className.startsWith("meo") ? className : `meo${className}`)
+      .trim()
+      .toLowerCase()
+  : "";
 
   // ✅ SINGLE SOURCE OF TRUTH
   const loadData = async () => {
     if (!normalizeClass || !subject) return;
 
     const res = await fetch(
-      `/api/questions?className=${normalizeClass}&subject=${subject}`
-    );
-
+  `/api/questions?className=${normalizeClass}&subject=${subject.trim().toLowerCase()}`
+);
     const data = await res.json();
     if (!data.success) return;
 
@@ -52,10 +51,12 @@ export default function Admin() {
 
     setTopics(uniqueTopics);
 
-    const activeTopic =
-      topic && uniqueTopics.includes(topic)
-        ? topic
-        : uniqueTopics[0] || "";
+    const normalizedTopic = topic?.trim().toLowerCase();
+
+const activeTopic =
+  normalizedTopic && uniqueTopics.includes(normalizedTopic)
+    ? normalizedTopic
+    : uniqueTopics[0] || "";
 
     setTopic(activeTopic);
 
@@ -80,7 +81,7 @@ export default function Admin() {
       body: JSON.stringify({
         action: editingId ? "UPDATE_QUESTION" : "ADD_QUESTION",
         className: normalizeClass,
-        subject,
+        subject: subject.trim().toLowerCase(),
         topic: topic.trim().toLowerCase(),
         id: editingId,
         question: questionText,
@@ -101,13 +102,10 @@ export default function Admin() {
     await fetch("/api/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        action: "DELETE_QUESTION",
-        className: normalizeClass,
-        subject: subject.trim().toLowerCase(),
-        topic,
-        id,
-      }),
+     body: JSON.stringify({
+      action: "DELETE_QUESTION",
+      id,
+    }),
     });
 
     loadData();
