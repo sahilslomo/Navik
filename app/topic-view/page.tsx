@@ -103,12 +103,14 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
       const orderKey = `order_${courseClass}_${subject}_${topic}`;
       const savedOrder: string[] = safeParse(localStorage.getItem(orderKey), []);
       const orderedData = savedOrder.length
-  ? savedOrder
+      ? savedOrder
       .map((id: string) => topicData.find(q => q.id === id))
       .filter(Boolean) as Question[]
-  : topicData;
+      : topicData;
+      if (topicData.length > 0) {
       setQuestions(orderedData);
       setFilteredQuestions(orderedData);
+      }
       setLabels(Array.from(new Set(topicData.flatMap(q => q.labels || []))));
       setCompleted(safeParse(localStorage.getItem(`progress_${courseClass}_${subject}_${topic}`), []));
       setBookmarked(safeParse(localStorage.getItem(`bookmark_${courseClass}_${subject}_${topic}`), []));
