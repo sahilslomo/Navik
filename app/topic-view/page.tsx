@@ -325,12 +325,12 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
       <DragDropContext onDragEnd={handleDragEnd}>
         <Droppable droppableId="questions" isDropDisabled={!dragActive}>
           {provided => (
-            <div {...provided.droppableProps} ref={provided.innerRef} className="max-w-3xl mx-auto space-y-4">
+            <motion.div layout {...provided.droppableProps} ref={provided.innerRef} className="max-w-3xl mx-auto space-y-4">
               {filteredQuestions.map((q, index) => (
                 <Draggable key={q.id} draggableId={q.id.toString()} index={index} isDragDisabled={!dragActive}>
                   {provided => (
                     <div ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
-                      <motion.div initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -5 }} className={`border p-4 rounded-xl shadow-md hover:shadow-lg transition ${darkMode ? "bg-gray-800" : "bg-white"}`}>
+                      <motion.div layout initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -5 }} className={`border p-4 rounded-xl shadow-md hover:shadow-lg transition ${darkMode ? "bg-gray-800" : "bg-white"}`}>
                         <div className="flex justify-between items-start flex-wrap gap-2">
                           <div className="font-bold text-lg cursor-pointer font-[Aptos]" onClick={() => { setOpenIndex(openIndex === index ? null : index); incrementTopicClick(); }}>
                             Q{index + 1}. {q.question}
@@ -347,7 +347,7 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
 
                         <AnimatePresence>
                           {openIndex === index && (
-                            <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="mt-3 overflow-hidden">
+                            <motion.div layout initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="mt-3">
                               <div className={`font-bold font-[Aptos] ${darkMode ? "text-gray-100" : "text-gray-900"}`}>{q.answer}</div>
                               <div className="flex flex-wrap gap-2 mt-2">{q.labels?.map((l, idx) => <span key={idx} className={`${darkMode ? "bg-indigo-700 text-indigo-100" : "bg-indigo-100 text-indigo-800"} px-2 py-1 rounded-full text-sm`}>{l}</span>)}</div>
 
@@ -375,7 +375,7 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
                 </Draggable>
               ))}
               {provided.placeholder}
-            </div>
+            </motion.div>
           )}
         </Droppable>
       </DragDropContext>
