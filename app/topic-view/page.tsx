@@ -348,9 +348,18 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
                           </div>
                         </div>
 
-                        <AnimatePresence>
+                       
                           {openIndex === index && (
-                            <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="mt-3 overflow-hidden">
+                            <motion.div
+  initial={false}
+  animate={{
+    height: openIndex === index ? "auto" : 0,
+    opacity: openIndex === index ? 1 : 0
+  }}
+  transition={{ duration: 0.25, ease: "easeInOut" }}
+  style={{ overflow: "hidden" }}
+  className="mt-3"
+>
                               <div className={`font-bold font-[Aptos] ${darkMode ? "text-gray-100" : "text-gray-900"}`}>{q.answer}</div>
                               <div className="flex flex-wrap gap-2 mt-2">{q.labels?.map((l, idx) => <span key={idx} className={`${darkMode ? "bg-indigo-700 text-indigo-100" : "bg-indigo-100 text-indigo-800"} px-2 py-1 rounded-full text-sm`}>{l}</span>)}</div>
 
@@ -371,7 +380,6 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
                               {aiData[q.id] && <div className={`font-mono mt-2 text-sm whitespace-pre-line p-2 rounded ${darkMode ? "bg-gray-700 text-gray-100" : "bg-gray-100 text-gray-900"}`}>{aiData[q.id]}</div>}
                             </motion.div>
                           )}
-                        </AnimatePresence>
                       </motion.div>
                     </div>
                   )}
