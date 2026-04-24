@@ -349,17 +349,17 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
                         </div>
 
                        
-                          {openIndex === index && (
-                            <motion.div
-  initial={false}
-  animate={{
-    height: openIndex === index ? "auto" : 0,
-    opacity: openIndex === index ? 1 : 0
-  }}
-  transition={{ duration: 0.25, ease: "easeInOut" }}
-  style={{ overflow: "hidden" }}
-  className="mt-3"
->
+                          
+                           <motion.div
+                            initial={false}
+                              animate={{
+                                height: openIndex === index ? "auto" : 0,
+                                  opacity: openIndex === index ? 1 : 0
+                                   }}
+                                  transition={{ duration: 0.25, ease: "easeInOut" }}
+                                  style={{ overflow: "hidden" }}
+                                className="mt-3"
+                                  >
                               <div className={`font-bold font-[Aptos] ${darkMode ? "text-gray-100" : "text-gray-900"}`}>{q.answer}</div>
                               <div className="flex flex-wrap gap-2 mt-2">{q.labels?.map((l, idx) => <span key={idx} className={`${darkMode ? "bg-indigo-700 text-indigo-100" : "bg-indigo-100 text-indigo-800"} px-2 py-1 rounded-full text-sm`}>{l}</span>)}</div>
 
@@ -375,11 +375,15 @@ localStorage.setItem(cacheKey, JSON.stringify(topicData));
                               {/* AI */}
                               <div className="flex gap-2 mt-2 flex-wrap">
                                 <button onClick={e => { e.stopPropagation(); askAI(q); }} className="bg-blue-400 text-white px-3 py-1 rounded hover:bg-blue-500 transition">🤖 Ask AI</button>
-                                {loadingAI === q.id && <span className="text-yellow-500">Thinking...</span>}
+                              {loadingAI === q.id && (<div className="h-24 flex items-center text-yellow-500">Thinking...</div>)}
                               </div>
-                              {aiData[q.id] && <div className={`font-mono mt-2 text-sm whitespace-pre-line p-2 rounded ${darkMode ? "bg-gray-700 text-gray-100" : "bg-gray-100 text-gray-900"}`}>{aiData[q.id]}</div>}
+                              <div className="min-h-[120px]">
+                              {aiData[q.id] && <div className={`font-mono mt-2 text-sm whitespace-pre-line p-2 rounded ${darkMode ? "bg-gray-700 text-gray-100" : "bg-gray-100 text-gray-900"}`}>
+                              {aiData[q.id]}
+                               </div>
+                               }
+                             </div>
                             </motion.div>
-                          )}
                       </motion.div>
                     </div>
                   )}
